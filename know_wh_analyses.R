@@ -133,7 +133,7 @@ print(d1.describe <- aggregate(Know ~ Condition * Order, d1, FUN=function(x) c(M
 
 #graph
 d1.plot <- ggplot(d1, aes(x=Condition,y=Know,fill=Condition)) +
-  ylab("Knowledge Attribution Agreement") +
+  ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   #facet_grid(. ~ Order) +
@@ -153,7 +153,7 @@ d1.plot <- ggplot(d1, aes(x=Condition,y=Know,fill=Condition)) +
     ,axis.title=element_text(size=rel(1.75))
   )
 d1.plot 
-#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/Figures/Fig1.png")
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig1.png")
 
 
 # Study 2 ------------------------------------------------------------
@@ -188,8 +188,11 @@ d2$Negation <- factor(d2$Negation, levels=c("Knows where","Doesn't know where"))
 
 d2 <- subset(d2,Lang=="English" & Order=="First Trial")
 
-## decide here if you want to reverse code the negated statements for all analyses. Otherwise,
-## the main effect of negation and interaction effect aren't particularly informative
+## WARNING: Decide here if you want to reverse code the negated statements for all analyses. Otherwise, the main 
+###effect of negation and interaction effect aren't particularly informative 
+## If you decide to do so, you'll then need to switch back to get the graph display correctly
+## And here's the code for doing it:
+d2$Know[d2$Negation=="Doesn't know where"] <- 8 - d2$Know[d2$Negation=="Doesn't know where"]
 
 ## ovearll model
 lm2.1 <- lmer(Know ~ Condition * Negation + (1|Comp), d2)
@@ -253,6 +256,7 @@ CohensD2.4 <- cohensD(
 print(CohensD2.4)
 
 print(d2.descip <- aggregate(Know ~ Condition*Negation, d2, FUN=function(x) c(M =mean(x), SD =sd(x))))
+print(d2.descip <- aggregate(Know ~ Negation, d2, FUN=function(x) c(M =mean(x), SD =sd(x))))
 
 ## this is the interaction test (reverse coding negated statements and excluding all false cases)
 
@@ -264,7 +268,7 @@ lm2.x2 <- lmer(Know ~ Condition + Negation + (1|Comp), d2.x)
 anova(lm2.x1,lm2.x2)
 
 d2.plot <- ggplot(d2, aes(x=Condition,y=Know,fill=Condition)) +
-  ylab("Knowledge Attribution Agreement") +
+  ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   facet_grid(~ Negation) +
@@ -286,7 +290,7 @@ d2.plot <- ggplot(d2, aes(x=Condition,y=Know,fill=Condition)) +
     ,panel.margin=unit(1,"lines")
   )
 d2.plot
-ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/Figures/Fig2.png")
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig2.png")
 
 # Study 3 Digression on Knowledge that
 
@@ -309,7 +313,7 @@ print(ttest3.2 <- t.test(d3$Know[d3$Condition=="All false"],mu=4,alternative="le
 print(d3.descip <- aggregate(Know ~ Condition, d3, FUN=function(x) c(M =mean(x), SD =sd(x))))
 
 d3.plot <- ggplot(d3, aes(x=Condition,y=Know,fill=Condition)) +
-  ylab("Know-that Attribution") +
+  ylab("Know-that Acription") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   #facet_grid(. ~ Order) +
@@ -329,13 +333,13 @@ d3.plot <- ggplot(d3, aes(x=Condition,y=Know,fill=Condition)) +
     ,axis.title=element_text(size=rel(1.75))
   )
 d3.plot 
-ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/Figures/Fig3.png")
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig3.png")
 
 ############ Add in the within-subjects comparisons here
 
 
 # Study 4 Naive Relevance-Implicature Approach -------------------------------------------------
-d4 <- read.csv("know_wh_study4_Rdata.csv")
+##d4 <- read.csv("know_wh_study4_Rdata.csv")
 
 d4$Subj <- factor(d4$Subj)
 d4$Condition <- factor(c("All true","Mixed","All false")[d4$Condition])
@@ -392,7 +396,7 @@ d4.F.plot <- ggplot(d4, aes(x=Language,y=Felicity,fill=Language)) +
     ,strip.text = element_text(size=rel(1.5))
   )
 d4.F.plot 
-ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/Figures/Fig4a.png")
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig4a.png")
 
 
 ## Knowledge analyses and graph
@@ -418,7 +422,7 @@ print(ttest4.5 <- t.test(d4.shared$Know[which(d4.shared$Condition=="Mixed")],d4.
 cohensD(d4.shared$Know[which(d4.shared$Condition=="Mixed")],d4.noShared$Know[which(d4.noShared$Condition=="Mixed")])
 
 d4.K.plot <- ggplot(d4, aes(x=Language,y=Know,fill=Language)) +
-  ylab("Knowledge Attribution Agreement") +
+  ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   facet_grid(. ~ Condition) +
@@ -438,9 +442,8 @@ d4.K.plot <- ggplot(d4, aes(x=Language,y=Know,fill=Language)) +
     ,axis.title=element_text(size=rel(1.75))
     ,strip.text = element_text(size=rel(1.5))
   )
-d4.K.plot 
-ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/Figures/Fig4b.png")
-
+d4.K.plot
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig4b.png")
 
 ######## Analyzing with mixed linear models instead
 
@@ -451,7 +454,6 @@ colnames(d4.Long) <- c("Subject","Beliefs","Language","Question","Judgment")
 lmr4.1 <- lmer(Judgment ~ Question * Language * Beliefs + (1|Subject), d4.Long)
 lmr4.2 <- lmer(Judgment ~ Question*Language + Question*Beliefs + Language*Beliefs + (1|Subject), d4.Long)
 anova(lmr4.1,lmr4.2)
-
 
 # Study 5 Knows How/Who ------------------------------------------------------------
 
@@ -472,7 +474,7 @@ sd(d5.3$Know)
 ##exclude those in the know-who version who completed the mention some test or
 ###who failed the comprehension question, which asked them to indicate who actually had an adapter
 d5.2 <- subset(d5.2, d5.2$Control==1 & d5.2$Condition!=4) 
-## 51 were excluded based on condition
+## 51 participants completed the mention-some test
 ## 21 were excluded based on failing control question
 
 d5 <- rbind(d5.1[,c(1:4,6,20)],d5.2[,c(1:4,9,23)])
@@ -505,6 +507,14 @@ cohensD(d5.mixed$Know,d5.allFalse$Know)
 
 print(d5.descip2 <- aggregate(Know ~ Condition, d5, FUN=function(x) c(M =mean(x), SD =sd(x))))
 
+##comparison of the knows-who mixed condition and the mention-some test
+var.test(d5.who$Know[d5.who$Condition=="Mixed"],d5.3$Know)
+t.test(d5.who$Know[d5.who$Condition=="Mixed"],d5.3$Know)
+cohensD(d5.who$Know[d5.who$Condition=="Mixed"],d5.3$Know)
+## Know-who descriptives
+mean(d5.who$Know[d5.who$Condition=="Mixed"])
+sd(d5.who$Know[d5.who$Condition=="Mixed"])
+
 ##Main effect of Question/Scenario
 d5.how <- subset(d5,d5$Question=="Knows How")
 d5.who <- subset(d5,d5$Question=="Knows Who")
@@ -515,8 +525,9 @@ cohensD(d5.how$Know,d5.who$Know)
 
 print(d5.descip3 <- aggregate(Know ~ Question, d5, FUN=function(x) c(M =mean(x), SD =sd(x))))
 
+
 d5.plot <- ggplot(d5, aes(x=Condition,y=Know,fill=Condition)) +
-  ylab("Knowledge Attribution Agreement") +
+  ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   facet_grid(. ~ Question) +
@@ -538,9 +549,7 @@ d5.plot <- ggplot(d5, aes(x=Condition,y=Know,fill=Condition)) +
     ,panel.margin=unit(1,"lines")
   )
 d5.plot
-ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/Figures/Fig5.png")
-
-
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig5.png")
 
 ### Notes
 
@@ -556,12 +565,13 @@ d5$Version <- factor(c("Presentation 1","Presentation 2"))
 # d5 <- subset(d5,Time>d5.time_cut)
 
 
-
 # Study 6 - Proportionality Test -------------------------------------------
 ##d6 <- read.csv("know_wh_study6_Rdata.csv")
 
-d6$Proportion <- factor(c("3 of 3 false","2 of 3 false","1 of 3 false","0 of 3 false")[d6$Proportion+1])
-d6$Proportion <- factor(d6$Proportion, levels = c("0 of 3 false","1 of 3 false","2 of 3 false","3 of 3 false"))
+## Go back through and change Proportion <- Condition
+
+d6$Condition <- factor(c("3 of 3 false","2 of 3 false","1 of 3 false","0 of 3 false")[d6$Condition+1])
+d6$Condition <- factor(d6$Condition, levels = c("0 of 3 false","1 of 3 false","2 of 3 false","3 of 3 false"))
 d6$Lang <- factor(c("English","Not English")[d6$Lang-20])
 
 d6 <- subset(d6,Lang=="English")
@@ -570,12 +580,12 @@ d6 <- subset(d6,Lang=="English")
 # print(d6.time_cut)
 # d6 <- subset(d6,Time>d6.time_cut)
 
-d6.plot <- ggplot(d6, aes(x=Proportion,y=Know,fill=Proportion)) +
-  ylab("Knowledge Attribution Agreement") +
+d6.plot <- ggplot(d6, aes(x=Condition,y=Know,fill=Condition)) +
+  ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim = c(1, 7)) +
   geom_boxplot() + scale_fill_discrete(name="Belief proportion") +
-  geom_jitter(aes(colour=Proportion), position = position_jitter(width = .1), alpha = 0.5)+
+  geom_jitter(aes(colour=Condition), position = position_jitter(width = .1), alpha = 0.5)+
   scale_colour_hue(c=50, l=30, name="Belief proportion")+ 
   theme(
     plot.background = element_blank()
@@ -591,7 +601,7 @@ d6.plot <- ggplot(d6, aes(x=Proportion,y=Know,fill=Proportion)) +
     ,strip.text = element_text(size=rel(1.5))
   )
 d6.plot
-ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/Figures/Fig6.png")
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig6.png")
 
 #analyses
 lm.6 <- lm(Know~Proportion, data=d6)
@@ -619,3 +629,58 @@ cohensD(d6.1of3$Know,d6.2of3$Know)
 var.test(d6.2of3$Know,d6.3of3$Know)
 t.test(d6.2of3$Know,d6.3of3$Know,equal.var=TRUE)
 cohensD(d6.2of3$Know,d6.3of3$Know)
+
+### Meta-Analytic Graph ###
+
+##Edits to make data consistent
+d2$Know[d2$Negation=="Doesn't know where"] <- 8 - d2$Know[d2$Negation=="Doesn't know where"]
+
+d5$Study <- "5"
+
+d6 <- read.csv("know_wh_study6_Rdata.csv")
+d6$Study <- "6"
+d6$Condition <- factor(c("All false","Mixed","Mixed","All true")[d6$Condition+1])
+d6$Lang <- factor(c("English","Not English")[d6$Lang-20])
+d6 <- subset(d6,Lang=="English")
+
+d <- rbind(d1[,c(2:3,20)],d2[,c(3,5,23)],d4[,c(2,4,23)],d5[,c(2:3,7)],d6[,c(3:4,20)])
+
+ds <- aggregate(Know ~ Study + Condition, d, mean)
+ds$ci.h <- aggregate(Know ~ Study + Condition, d, ci.high)$Know
+ds$ci.l <- aggregate(Know ~ Study + Condition, d, ci.low)$Know
+
+do <- aggregate(Know ~ Condition, d, mean)
+do$ci.h <- aggregate(Know ~ Condition, d, ci.high)$Know
+do$ci.l <- aggregate(Know ~ Condition, d, ci.low)$Know
+do$Study <- "Overall"
+  
+ds <- rbind(ds,do)
+
+ds <- ds[order(ds$Condition,ds$Study),]
+
+d.plot <- ggplot(ds, aes(x=Study,y=Know, colour=Condition)) +
+  ylab("Knowledge Ascription Agreement") +
+  xlab("Study") +
+  coord_cartesian(ylim=c(1,7)) +
+  facet_grid(.~Condition) +
+  geom_point() +
+  geom_errorbar(aes(ymin=Know - ds$ci.l, ymax=Know + ds$ci.h),width=0.2) + 
+  scale_colour_hue(c=50, l=30, name="Agent's Beliefs") +
+  geom_vline(xintercept=5.45,lty=2) +
+  theme(
+    plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,legend.position="none"
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.text.x=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.95)
+    ,axis.title.x=element_text(vjust=.25)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.5))
+    ,strip.text = element_text(size=rel(1.5))
+    ,panel.margin=unit(1,"lines")
+  )
+d.plot
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig7.png")
+
