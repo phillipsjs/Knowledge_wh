@@ -2,6 +2,7 @@
 
 rm(list=ls())
 
+<<<<<<< HEAD
 setwd("C:/Users/Jphil/Dropbox/Know-Wh Studies/Know-wh_SuppMat 2") ## set wd to location of the folder containing this R file
 #source("know_wh_source.R")
 windowsFonts(Times=windowsFont("TT Times New Roman"))
@@ -10,6 +11,10 @@ windowsFonts(Times=windowsFont("TT Times New Roman"))
 library(lme4)
 library(lsr)
 library(ggplot2)
+=======
+source("C:/Users/Jonathan/Documents/currentProjects/R/jsp.useful.R")
+setwd("C:/Users/Jonathan/Documents/currentProjects/Knowledge_wh/Know_wh_Materials")
+>>>>>>> origin/master
 
 #Load data --------------------------------------------------------------------------------
 ## Study 1: Basic Demonstration
@@ -29,8 +34,12 @@ d4 <- read.csv("know_wh_study4_Rdata.csv")
 d5.1 <- read.csv("know_wh_study5p1_Rdata.csv") # Knows how
 d5.2 <- read.csv("know_wh_study5p2_Rdata.csv") # Knows who
 ##study 6: Porportionality Test
+<<<<<<< HEAD
 d6.1 <- read.csv("know_wh_study6p1_Rdata.csv")
 d6.2 <- read.csv("know_wh_study6p2_Rdata.csv")
+=======
+d6 <- read.csv("know_wh_study6_Rdata.csv")
+>>>>>>> origin/master
 
 #Study lablels
 d1$Study <- "1"
@@ -44,8 +53,12 @@ d3$Study <- "3"
 d4$Study <- "4"
 d5.1$Study <- "5"
 d5.2$Study <- "5"
+<<<<<<< HEAD
 d6.1$Study <- "6.1"
 d6.2$Study <- "6.2"
+=======
+d6$Study <- "6"
+>>>>>>> origin/master
 
 # Demographics -------------------------------------------------------
 
@@ -61,8 +74,12 @@ demog <- rbind(
     d4[,c(1,10:12,14:23)], ## Study 4
     d5.1[,c(1,6:8,10:19)], ## Study 5.1
     d5.2[,c(1,9:11,13:22)], ## Study 5.2
+<<<<<<< HEAD
     d6.1[,c(1,7:9,11:20)],  ## Study 6.1
     d6.2[,c(1,6:8,10:19)]  ## Study 6.2
+=======
+    d6[,c(1,7:9,11:20)]  ## Study 6
+>>>>>>> origin/master
   )
 
 Ethnicity <- matrix(rep(99,42),nrow=7,ncol=6)
@@ -94,12 +111,21 @@ demog.education <- aggregate(Education~Study, demog, FUN=table)
 ###Age and Gender
 print(cbind(demog.age,demog.gender[,2],demog.n[,2])) #nb: where n > (female+male), n-(female+male) participants did not report gender
 ###Ethnicity
+<<<<<<< HEAD
 #print(Ethnicity)
 ###Education
 #print(demog.education)
 
 # Study 1 ------------------------------------------------------------
 #d1 <- read.csv("know_wh_study1_Rdata.csv")
+=======
+print(Ethnicity)
+###Education
+print(demog.education)
+
+# Study 1 ------------------------------------------------------------
+d1 <- read.csv("know_wh_study1_Rdata.csv")
+>>>>>>> origin/master
 
 d1$Subj <- factor(d1$Subj)
 d1$Condition <- factor(c("All true","Mixed")[d1$Condition])
@@ -107,12 +133,20 @@ d1$Order <- factor(c("First Trial","Second Trial")[d1$Order])
 d1$Lang <- factor(c("English","Not English")[d1$Lang-20])
 
 ## first trial only analyses
+<<<<<<< HEAD
 d1f <- subset(d1,Lang=="English" & Order=="First Trial") ## remove those who didn't speak English and select 1st trial data
 
 var.test(d1f$Know[d1f$Condition=="All true"],d1f$Know[d1f$Condition=="Mixed"])
 t.test(d1f$Know[d1f$Condition=="All true"],d1f$Know[d1f$Condition=="Mixed"])
 cohensD(d1f$Know[d1f$Condition=="All true"],d1f$Know[d1f$Condition=="Mixed"])
 #t(79.83) = 3.75,p < .001,d=.757
+=======
+d1 <- subset(d1,Lang=="English" & Order=="First Trial") ## remove those who didn't speak English and select 1st trial data
+
+var.test(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"])
+print(ttest.1 <- t.test(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"]))
+cohensD(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"])
+>>>>>>> origin/master
 
 ## Analyses for both 1st and 2nd trials
 d1 <- subset(d1,Lang=="English") ## remove only those who didn't speak English
@@ -120,6 +154,7 @@ d1 <- subset(d1,Lang=="English") ## remove only those who didn't speak English
 var.test(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"])
 print(ttest.1 <- t.test(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"],paired=TRUE, var.equal=TRUE))
 cohensD(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"])
+<<<<<<< HEAD
 #t(100) = 3.94,p < .001,d=.529
 
 ##Check for an interaction between Condition and Order
@@ -132,15 +167,33 @@ anova(lm1.1,lm1.2)
 lm1.3 <- lmer(Know ~ Order + (1 | Subj), d1)
 anova(lm1.2,lm1.3)
 ## this is the (main) effect of Order
+=======
+
+##Check for an interaction between Condition and Order
+lm1.1 <- lmer(Know ~ Condition * Order + (1 | Subj), d1)
+summary(lm1.1)
+lm1.2 <- lmer(Know ~ Condition + Order + (1 | Subj), d1)
+anova(lm1.1,lm1.2)
+lm1.3 <- lmer(Know ~ Order + (1 | Subj), d1)
+anova(lm1.2,lm1.3)
+>>>>>>> origin/master
 lm1.4 <- lmer(Know ~ Condition + (1 | Subj), d1)
 anova(lm1.2,lm1.4)
 
 ## second trial only analyses
+<<<<<<< HEAD
 d1s <- subset(d1,Lang=="English" & Order=="Second Trial") ## remove those who didn't speak English and select 1st trial data
 
 var.test(d1s$Know[d1s$Condition=="All true"],d1s$Know[d1s$Condition=="Mixed"])
 t.test(d1s$Know[d1s$Condition=="All true"],d1s$Know[d1s$Condition=="Mixed"],var.equal=TRUE)
 cohensD(d1s$Know[d1s$Condition=="All true"],d1s$Know[d1s$Condition=="Mixed"])
+=======
+d1 <- subset(d1,Lang=="English" & Order=="Second Trial") ## remove those who didn't speak English and select 1st trial data
+
+var.test(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"])
+print(ttest.1 <- t.test(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"],var.equal=TRUE))
+cohensD(d1$Know[d1$Condition=="All true"],d1$Know[d1$Condition=="Mixed"])
+>>>>>>> origin/master
 
 #Descriptives
 print(d1.describe <- aggregate(Know ~ Condition * Order, d1, FUN=function(x) c(M =mean(x), SD =sd(x))))
@@ -151,15 +204,22 @@ d1.plot <- ggplot(d1, aes(x=Condition,y=Know,fill=Condition)) +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   #facet_grid(. ~ Order) +
+<<<<<<< HEAD
   geom_boxplot() + 
   scale_fill_grey(start=0.4, end=0.65,name="Agent's Beliefs") +
   geom_jitter(aes(colour=Condition), width = .5, height = .75, size=.9)+
   scale_colour_grey(start=0.05, end=0.5, name="Agent's Beliefs") +
   theme_bw() +
+=======
+  geom_boxplot() + scale_fill_discrete(name="Agent's Beliefs") +
+  geom_jitter(aes(colour=Condition), position = position_jitter(width = .1), alpha = 0.5)+
+  scale_colour_hue(c=50, l=30, name="Agent's Beliefs") +
+>>>>>>> origin/master
   theme(
     plot.background = element_blank()
     ,panel.grid.major = element_blank()
     ,panel.grid.minor = element_blank()
+<<<<<<< HEAD
     ,legend.title=element_text(size=rel(1.5),family="Times")
     ,legend.text=element_text(size=rel(1.75),family="Times")
     ,axis.text.x = element_blank()
@@ -174,6 +234,19 @@ d1.plot
 # cairo_ps(file="Figures/Fig1.eps",width=9, height=6)
 # plot(d1.plot)
 # dev.off()
+=======
+    ,legend.title=element_text(size=rel(1.5))
+    ,legend.text=element_text(size=rel(1.75))
+    ,axis.text.x = element_blank()
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.75)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.75))
+  )
+d1.plot 
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig1.png")
+
+>>>>>>> origin/master
 
 # Study 2 ------------------------------------------------------------
 
@@ -193,6 +266,7 @@ d2.4$Negation <- "Doesn't know where"
 d2.5$Negation <- "Knows where"
 d2.6$Negation <- "Doesn't know where"
 
+<<<<<<< HEAD
 d2.2$Subj <- d2.2$Subj + max(d2.1$Subj)
 d2.3$Subj <- d2.3$Subj + max(d2.2$Subj)
 d2.4$Subj <- d2.4$Subj + max(d2.3$Subj)
@@ -201,6 +275,11 @@ d2.6$Subj <- d2.6$Subj + max(d2.5$Subj)
 
 d2 <- rbind(d2.1,d2.2,d2.3,d2.4,d2.5,d2.6)
 
+=======
+d2 <- rbind(d2.1,d2.2,d2.3,d2.4,d2.5,d2.6)
+
+d2$Subj <- rep(1:length(d2$Consent)) ##wait... does this not fuck this up, isn't it already in long form? Assign subj # after subsetting?
+>>>>>>> origin/master
 d2$Condition <- factor(c("All true","Mixed","All false")[d2$Condition])
 d2$Condition <- factor(d2$Condition, levels=c("All true","Mixed","All false"))
 d2$Order <- factor(c("First Trial","Second Trial")[d2$Order])
@@ -215,6 +294,7 @@ d2 <- subset(d2,Lang=="English" & Order=="First Trial")
 ## WARNING: Decide here if you want to reverse code the negated statements for all analyses. Otherwise, the main 
 ###effect of negation and interaction effect aren't particularly informative 
 ## If you decide to do so, you'll then need to switch back to get the graph display correctly
+<<<<<<< HEAD
 ## here's the code for doing it:
 d2$Know[d2$Negation=="Doesn't know where"] <- 8 - d2$Know[d2$Negation=="Doesn't know where"]
 
@@ -260,14 +340,92 @@ t.test(d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="Mixed"],
        d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="All false"])
 cohensD(d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="Mixed"],
         d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="All false"])
+=======
+## And here's the code for doing it:
+d2$Know[d2$Negation=="Doesn't know where"] <- 8 - d2$Know[d2$Negation=="Doesn't know where"]
+
+## ovearll model
+lm2.1 <- lmer(Know ~ Condition * Negation + (1|Comp), d2)
+summary(lm2.1)
+### Belief * Negation interaction effect 
+lm2.2 <- lmer(Know ~ Condition + Negation + (1|Comp), d2)
+anova(lm2.1,lm2.2)
+### main effect of belief
+lm2.3 <- lmer(Know ~ Negation + (1|Comp), d2)
+anova(lm2.2,lm2.3)
+### main effect of negation
+lm2.4 <- lmer(Know ~ Condition + (1|Comp), d2)
+anova(lm2.2,lm2.4)
+
+## Standard: All true vs. mixed
+ttest2.1 <- t.test(
+                  d2$Know[d2$Negation=="Knows where" & d2$Condition=="All true"],
+                  d2$Know[d2$Negation=="Knows where" & d2$Condition=="Mixed"]
+                  )
+print(ttest2.1)
+CohensD2.1 <- cohensD(
+                  d2$Know[d2$Negation=="Knows where" & d2$Condition=="All true"],
+                  d2$Know[d2$Negation=="Knows where" & d2$Condition=="Mixed"]
+                  )
+print(CohensD2.1)
+
+## Standard: Mixed vs. all false
+ttest2.2 <- t.test(
+  d2$Know[d2$Negation=="Knows where" & d2$Condition=="Mixed"],
+  d2$Know[d2$Negation=="Knows where" & d2$Condition=="All false"]
+)
+print(ttest2.2)
+CohensD2.2 <- cohensD(
+  d2$Know[d2$Negation=="Knows where" & d2$Condition=="Mixed"],
+  d2$Know[d2$Negation=="Knows where" & d2$Condition=="All false"]
+)
+print(CohensD2.2)
+
+## Negated: All true vs. Mixed
+ttest2.3 <- t.test(
+                  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="All true"],
+                  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="Mixed"]
+                  )
+print(ttest2.3)
+CohensD2.3 <- cohensD(
+                  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="All true"],
+                  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="Mixed"]
+                  )
+print(CohensD2.3)
+
+## Negated: Mixed vs. all false
+ttest2.4 <- t.test(
+  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="Mixed"],
+  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="All false"]
+)
+print(ttest2.4)
+CohensD2.4 <- cohensD(
+  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="Mixed"],
+  d2$Know[d2$Negation=="Doesn't know where" & d2$Condition=="All false"]
+)
+print(CohensD2.4)
+>>>>>>> origin/master
 
 print(d2.descip <- aggregate(Know ~ Condition*Negation, d2, FUN=function(x) c(M =mean(x), SD =sd(x))))
 print(d2.descip <- aggregate(Know ~ Negation, d2, FUN=function(x) c(M =mean(x), SD =sd(x))))
 
+<<<<<<< HEAD
+=======
+## this is the interaction test (reverse coding negated statements and excluding all false cases)
+
+d2.x <- subset(d2, d2$Condition !="All false")
+d2.x$Know[d2.x$Negation=="Doesn't know where"] <- 8 - d2.x$Know[d2.x$Negation=="Doesn't know where"] 
+
+lm2.x1 <- lmer(Know ~ Condition * Negation + (1|Comp), d2.x)
+lm2.x2 <- lmer(Know ~ Condition + Negation + (1|Comp), d2.x)
+anova(lm2.x1,lm2.x2)
+
+>>>>>>> origin/master
 d2.plot <- ggplot(d2, aes(x=Condition,y=Know,fill=Condition)) +
   ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
+<<<<<<< HEAD
   #facet_grid( ~ Negation) +
   facet_grid(Comp ~ Negation) +
   geom_boxplot()  + 
@@ -295,6 +453,30 @@ d2.plot
 # dev.off()
 
 # Study 3: Knowledge that ------------------------------------------------------------
+=======
+  facet_grid(~ Negation) +
+  geom_boxplot() +  scale_fill_discrete(name="Agent's Beliefs") +
+  geom_jitter(aes(colour=Condition), position = position_jitter(width = .1), alpha = 0.5)+
+  scale_colour_hue(c=50, l=30, name="Agent's Beliefs") +
+  theme(
+      plot.background = element_blank()
+    ,panel.grid.major = element_blank()
+    ,panel.grid.minor = element_blank()
+    ,legend.title=element_text(size=rel(1.5))
+    ,legend.text=element_text(size=rel(1.75))
+    ,axis.text.x = element_blank()
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.75)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.75))
+    ,strip.text = element_text(size=rel(1.5))
+    ,panel.margin=unit(1,"lines")
+  )
+d2.plot
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig2.png")
+
+# Study 3 Digression on Knowledge that
+>>>>>>> origin/master
 
 d3$Subj <- factor(d3$Subj)
 d3$Condition <- factor(c("All true","Mixed","All false")[d3$Condition])
@@ -305,16 +487,26 @@ d3$Lang <- factor(c("English","Not English")[d3$Lang-20])
 d3 <- subset(d3,Lang=="English" & Order=="First Trial") ## remove those who didn't speak English
 
 var.test(d3$Know[d3$Condition=="All true"],d3$Know[d3$Condition=="Mixed"])
+<<<<<<< HEAD
 t.test(d3$Know[d3$Condition=="All true"],d3$Know[d3$Condition=="Mixed"])
 cohensD(d3$Know[d3$Condition=="All true"],d3$Know[d3$Condition=="Mixed"])
 
 #one sample ttest for all False 
 shapiro.test(d3$Know[d3$Condition=="All false"])
 t.test(d3$Know[d3$Condition=="All false"],mu=4,alternative="less")
+=======
+print(ttest3.1 <- t.test(d3$Know[d3$Condition=="All true"],d3$Know[d3$Condition=="Mixed"]))
+print(CohensD3.1 <- cohensD(d3$Know[d3$Condition=="All true"],d3$Know[d3$Condition=="Mixed"]))
+
+#one sample ttest for all False 
+shapiro.test(d3$Know[d3$Condition=="All false"])
+print(ttest3.2 <- t.test(d3$Know[d3$Condition=="All false"],mu=4,alternative="less"))
+>>>>>>> origin/master
 
 print(d3.descip <- aggregate(Know ~ Condition, d3, FUN=function(x) c(M =mean(x), SD =sd(x))))
 
 d3.plot <- ggplot(d3, aes(x=Condition,y=Know,fill=Condition)) +
+<<<<<<< HEAD
   ylab("Know-that Ascription") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
@@ -324,10 +516,20 @@ d3.plot <- ggplot(d3, aes(x=Condition,y=Know,fill=Condition)) +
   geom_jitter(aes(colour=Condition),  width = .5, height = .5, size=.9)+
   scale_colour_grey(start=0.05, end=0.5, name="Agent's Beliefs") +
   theme_bw() +
+=======
+  ylab("Know-that Acription") +
+  xlab("") +
+  coord_cartesian(ylim=c(1,7)) +
+  #facet_grid(. ~ Order) +
+  geom_boxplot() + scale_fill_discrete(name="Agent's Beliefs") +
+  geom_jitter(aes(colour=Condition), position = position_jitter(width = .1), alpha = 0.5)+
+  scale_colour_hue(c=50, l=30, name="Agent's Beliefs") +
+>>>>>>> origin/master
   theme(
     plot.background = element_blank()
     ,panel.grid.major = element_blank()
     ,panel.grid.minor = element_blank()
+<<<<<<< HEAD
     ,legend.title=element_text(size=rel(1.5),family="Times")
     ,legend.text=element_text(size=rel(1.75),family="Times")
     ,axis.text.x = element_blank()
@@ -343,6 +545,21 @@ d3.plot
 # cairo_ps(file="Figures/Fig3.eps",width=9, height=6)
 # plot(d3.plot)
 # dev.off()
+=======
+    ,legend.title=element_text(size=rel(1.5))
+    ,legend.text=element_text(size=rel(1.75))
+    ,axis.text.x = element_blank()
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.25)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.75))
+  )
+d3.plot 
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig3.png")
+
+############ Add in the within-subjects comparisons here
+
+>>>>>>> origin/master
 
 # Study 4 Naive Relevance-Implicature Approach -------------------------------------------------
 ##d4 <- read.csv("know_wh_study4_Rdata.csv")
@@ -369,6 +586,7 @@ etaSquared(lm4.F)
 d4.F.descrip <- aggregate(Felicity ~ Condition + Language, d4, FUN=function(x) c(M =mean(x), SD =sd(x)))
 
 ###Shared lang
+<<<<<<< HEAD
 t.test(d4.shared$Felicity[which(d4.shared$Condition=="All true")],
        d4.shared$Felicity[which(d4.shared$Condition=="Mixed")])
 cohensD(d4.shared$Felicity[which(d4.shared$Condition=="All true")],
@@ -385,21 +603,40 @@ t.test(d4.shared$Felicity[which(d4.shared$Condition=="All false")],
        d4.noShared$Felicity[which(d4.noShared$Condition=="All false")])
 cohensD(d4.shared$Felicity[which(d4.shared$Condition=="All false")],
         d4.noShared$Felicity[which(d4.noShared$Condition=="All false")])
+=======
+print(ttest4.1 <- t.test(d4.shared$Felicity[which(d4.shared$Condition=="All true")],d4.shared$Felicity[which(d4.shared$Condition=="Mixed")]))
+cohensD(d4.shared$Felicity[which(d4.shared$Condition=="All true")],d4.shared$Felicity[which(d4.shared$Condition=="Mixed")])
+
+###No shared lang
+print(ttest4.2 <- t.test(d4.noShared$Felicity[which(d4.noShared$Condition=="All true")],d4.noShared$Felicity[which(d4.noShared$Condition=="Mixed")]))
+cohensD(d4.noShared$Felicity[which(d4.noShared$Condition=="All true")],d4.noShared$Felicity[which(d4.noShared$Condition=="Mixed")])
+
+### all false
+print(ttest4.3 <- t.test(d4.shared$Felicity[which(d4.shared$Condition=="All false")],d4.noShared$Felicity[which(d4.noShared$Condition=="All false")]))
+cohensD(d4.shared$Felicity[which(d4.shared$Condition=="All false")],d4.noShared$Felicity[which(d4.noShared$Condition=="All false")])
+>>>>>>> origin/master
 
 d4.F.plot <- ggplot(d4, aes(x=Language,y=Felicity,fill=Language)) +
   ylab("Usefulness Rating") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   facet_grid(. ~ Condition) +
+<<<<<<< HEAD
   geom_boxplot() + 
   scale_fill_grey(start=0.3, end=0.8,name="Agent's Language") +
   geom_jitter(aes(colour=Language),  width = .5, height = .5, size=.9)+
   scale_colour_grey(start=0.05, end=0.5, name="Agent's Language") +
   theme_bw() +
+=======
+  geom_boxplot() +
+  geom_jitter(aes(colour=Language), position = position_jitter(width = .1), alpha = 0.5)+
+  scale_colour_hue(c=50, l=30)+
+>>>>>>> origin/master
   theme(
     plot.background = element_blank()
     ,panel.grid.major = element_blank()
     ,panel.grid.minor = element_blank()
+<<<<<<< HEAD
     ,legend.title=element_text(size=rel(1.5),family="Times")
     ,legend.text=element_text(size=rel(1.75),family="Times")
     ,axis.text.x = element_blank()
@@ -414,6 +651,20 @@ d4.F.plot
 # cairo_ps(file="Figures/Fig4a.eps",width=9, height=6)
 # plot(d4.F.plot)
 # dev.off()
+=======
+    ,legend.title=element_text(size=rel(1.5))
+    ,legend.text=element_text(size=rel(1.75))
+    ,axis.text.x = element_blank()
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.75)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.75))
+    ,strip.text = element_text(size=rel(1.5))
+  )
+d4.F.plot 
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig4a.png")
+
+>>>>>>> origin/master
 
 ## Knowledge analyses and graph
 
@@ -423,6 +674,7 @@ etaSquared(lm4.K)
 
 d4.K.descip <- aggregate(Know ~ Condition + Language, d4, FUN=function(x) c(M =mean(x), SD =sd(x)))
 
+<<<<<<< HEAD
 var.test(d4.noShared$Know[which(d4.noShared$Condition=="All true")],
          d4.noShared$Know[which(d4.noShared$Condition=="Mixed")])
 t.test(d4.noShared$Know[which(d4.noShared$Condition=="All true")],
@@ -442,21 +694,43 @@ t.test(d4.shared$Know[which(d4.shared$Condition=="Mixed")],
        d4.noShared$Know[which(d4.noShared$Condition=="Mixed")],var.equal = T)
 cohensD(d4.shared$Know[which(d4.shared$Condition=="Mixed")],
         d4.noShared$Know[which(d4.noShared$Condition=="Mixed")])
+=======
+################ update based on variance tests
+
+#var.test(d4.noShared$Know[which(d4.noShared$Condition=="All true")],d4.noShared$Know[which(d4.noShared$Condition=="Mixed")])
+print(ttest4.4 <- t.test(d4.noShared$Know[which(d4.noShared$Condition=="All true")],d4.noShared$Know[which(d4.noShared$Condition=="Mixed")]))
+cohensD(d4.noShared$Know[which(d4.noShared$Condition=="All true")],d4.noShared$Know[which(d4.noShared$Condition=="Mixed")])
+
+#var.test(d4.shared$Know[which(d4.shared$Condition=="All true")],d4.shared$Know[which(d4.shared$Condition=="Mixed")])
+print(ttest4.4 <- t.test(d4.shared$Know[which(d4.shared$Condition=="All true")],d4.shared$Know[which(d4.shared$Condition=="Mixed")]))
+cohensD(d4.shared$Know[which(d4.shared$Condition=="All true")],d4.shared$Know[which(d4.shared$Condition=="Mixed")])
+
+#var.test(d4.shared$Know[which(d4.shared$Condition=="Mixed")],d4.noShared$Know[which(d4.noShared$Condition=="Mixed")])
+print(ttest4.5 <- t.test(d4.shared$Know[which(d4.shared$Condition=="Mixed")],d4.noShared$Know[which(d4.noShared$Condition=="Mixed")]))
+cohensD(d4.shared$Know[which(d4.shared$Condition=="Mixed")],d4.noShared$Know[which(d4.noShared$Condition=="Mixed")])
+>>>>>>> origin/master
 
 d4.K.plot <- ggplot(d4, aes(x=Language,y=Know,fill=Language)) +
   ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   facet_grid(. ~ Condition) +
+<<<<<<< HEAD
   geom_boxplot() + 
   scale_fill_grey(start=0.3, end=0.8,name="Agent's Language") +
   geom_jitter(aes(colour=Language),  width = .5, height = .5, size=.9)+
   scale_colour_grey(start=0.05, end=0.5, name="Agent's Language") +
   theme_bw() +
+=======
+  geom_boxplot() +
+  geom_jitter(aes(colour=Language), position = position_jitter(width = .1), alpha = 0.5)+
+  scale_colour_hue(c=50, l=30)+
+>>>>>>> origin/master
   theme(
     plot.background = element_blank()
     ,panel.grid.major = element_blank()
     ,panel.grid.minor = element_blank()
+<<<<<<< HEAD
     ,legend.title=element_text(size=rel(1.5),family="Times")
     ,legend.text=element_text(size=rel(1.75),family="Times")
     ,axis.text.x = element_blank()
@@ -471,6 +745,19 @@ d4.K.plot
 # cairo_ps(file="Figures/Fig4b.eps",width=9, height=6)
 # plot(d4.K.plot)
 # dev.off()
+=======
+    ,legend.title=element_text(size=rel(1.5))
+    ,legend.text=element_text(size=rel(1.75))
+    ,axis.text.x = element_blank()
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.75)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.75))
+    ,strip.text = element_text(size=rel(1.5))
+  )
+d4.K.plot
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig4b.png")
+>>>>>>> origin/master
 
 ######## Analyzing with mixed linear models instead
 
@@ -487,6 +774,7 @@ anova(lmr4.1,lmr4.2)
 d5.1$Question <- "Knows How"
 d5.2$Question <- "Knows Who"
 
+<<<<<<< HEAD
 ### intial mention-some test for the knows who version.
 d5.3 <- subset(d5.2, d5.2$Control==1 & d5.2$Condition==4) 
 d5.3$Lang <- factor(c("English","Not English")[d5.3$Lang-20])
@@ -502,11 +790,35 @@ d5 <- rbind(d5.1[,c(1:4,6,20)],d5.2[,c(1:4,9,23)])
 
 d5$Condition <- factor(c("All true","Mixed","All false","Mention some")[d5$Condition])
 d5$Condition <- factor(d5$Condition, levels=c("All true","Mixed","Mention some","All false"))
+=======
+### mention-some test for the knows who version.
+
+d5.3 <- subset(d5.2, d5.2$Control==1 & d5.2$Condition==4) 
+d5.3$Lang <- factor(c("English","Not English")[d5.3$Lang-20])
+d5.3 <- subset(d5.3,Lang=="English") ##All were native?
+
+t.test(d5.3$Know,mu=4, alternative="greater")
+
+mean(d5.3$Know)
+sd(d5.3$Know)
+
+##exclude those in the know-who version who completed the mention some test or
+###who failed the comprehension question, which asked them to indicate who actually had an adapter
+d5.2 <- subset(d5.2, d5.2$Control==1 & d5.2$Condition!=4) 
+## 51 participants completed the mention-some test
+## 21 were excluded based on failing control question
+
+d5 <- rbind(d5.1[,c(1:4,6,20)],d5.2[,c(1:4,9,23)])
+
+d5$Condition <- factor(c("All true","Mixed","All false")[d5$Condition])
+d5$Condition <- factor(d5$Condition, levels=c("All true","Mixed","All false"))
+>>>>>>> origin/master
 d5$Lang <- factor(c("English","Not English")[d5$Lang-20])
 
 d5 <- subset(d5,Lang=="English")
 ## 16 were excluded because English was not their native langauge
 
+<<<<<<< HEAD
 d5.allTrue <- subset(d5,d5$Condition=="All true")
 d5.mixed <- subset(d5,d5$Condition=="Mixed")
 d5.allFalse <- subset(d5,d5$Condition=="All false")
@@ -554,34 +866,81 @@ cohensD(d5.mixed$Know[d5.mixed$Question=="Knows How"],
         d5.allFalse$Know[d5.allFalse$Question=="Knows How"])
 
 ##Overall analyses
+=======
+>>>>>>> origin/master
 lm5.1 <- lm(Know ~ Condition * Question, d5)
 anova(lm5.1)
 etaSquared(lm5.1)
 
+<<<<<<< HEAD
+=======
+print(d5.descip1 <- aggregate(Know ~ Condition, d5, FUN=function(x) c(M =mean(x), SD =sd(x))))
+
+##Main effect of Condition
+d5.allTrue <- subset(d5,d5$Condition=="All true")
+d5.mixed <- subset(d5,d5$Condition=="Mixed")
+d5.allFalse <- subset(d5,d5$Condition=="All false")
+
+var.test(d5.allTrue$Know,d5.mixed$Know)
+t.test(d5.allTrue$Know,d5.mixed$Know,equal.var=TRUE)
+cohensD(d5.allTrue$Know,d5.mixed$Know)
+
+var.test(d5.mixed$Know,d5.allFalse$Know)
+t.test(d5.mixed$Know,d5.allFalse$Know)
+cohensD(d5.mixed$Know,d5.allFalse$Know)
+
+print(d5.descip2 <- aggregate(Know ~ Condition, d5, FUN=function(x) c(M =mean(x), SD =sd(x))))
+
+##comparison of the knows-who mixed condition and the mention-some test
+var.test(d5.who$Know[d5.who$Condition=="Mixed"],d5.3$Know)
+t.test(d5.who$Know[d5.who$Condition=="Mixed"],d5.3$Know)
+cohensD(d5.who$Know[d5.who$Condition=="Mixed"],d5.3$Know)
+## Know-who descriptives
+mean(d5.who$Know[d5.who$Condition=="Mixed"])
+sd(d5.who$Know[d5.who$Condition=="Mixed"])
+
+>>>>>>> origin/master
 ##Main effect of Question/Scenario
 d5.how <- subset(d5,d5$Question=="Knows How")
 d5.who <- subset(d5,d5$Question=="Knows Who")
 
+<<<<<<< HEAD
 print(d5.descip3 <- aggregate(Know ~ Question, d5, FUN=function(x) c(M =mean(x), SD =sd(x))))
+=======
+>>>>>>> origin/master
 var.test(d5.how$Know,d5.who$Know)
 t.test(d5.how$Know,d5.who$Know, equal.var=TRUE)
 cohensD(d5.how$Know,d5.who$Know)
 
+<<<<<<< HEAD
 
 d5.plot <- ggplot(d5[d5$Condition!="Mention some",], aes(x=Condition,y=Know,fill=Condition)) +
+=======
+print(d5.descip3 <- aggregate(Know ~ Question, d5, FUN=function(x) c(M =mean(x), SD =sd(x))))
+
+
+d5.plot <- ggplot(d5, aes(x=Condition,y=Know,fill=Condition)) +
+>>>>>>> origin/master
   ylab("Knowledge Ascription Agreement") +
   xlab("") +
   coord_cartesian(ylim=c(1,7)) +
   facet_grid(. ~ Question) +
+<<<<<<< HEAD
   geom_boxplot() + 
   scale_fill_grey(start=0.3, end=0.8,name="Agent's Beliefs") +
   geom_jitter(aes(colour=Condition),  width = .5, height = .5, size=.9)+
   scale_colour_grey(start=0.05, end=0.5, name="Agent's Beliefs") +
   theme_bw() +
+=======
+  geom_boxplot() + scale_fill_discrete(name="Agent's Beliefs") +
+  geom_jitter(aes(colour=Condition), position = position_jitter(width = .1), alpha = 0.5)+
+  scale_colour_hue(c=50, l=30, name="Agent's Beliefs") +
+>>>>>>> origin/master
   theme(
     plot.background = element_blank()
     ,panel.grid.major = element_blank()
     ,panel.grid.minor = element_blank()
+<<<<<<< HEAD
     ,legend.title=element_text(size=rel(1.5),family="Times")
     ,legend.text=element_text(size=rel(1.75),family="Times")
     ,axis.text.x = element_blank()
@@ -597,6 +956,20 @@ d5.plot
 # cairo_ps(file="Figures/Fig5.eps",width=9, height=6)
 # plot(d5.plot)
 # dev.off()
+=======
+    ,legend.title=element_text(size=rel(1.5))
+    ,legend.text=element_text(size=rel(1.75))
+    ,axis.text.x = element_blank()
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.25)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.75))
+    ,strip.text = element_text(size=rel(1.5))
+    ,panel.margin=unit(1,"lines")
+  )
+d5.plot
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig5.png")
+>>>>>>> origin/master
 
 ### Notes
 
@@ -613,6 +986,7 @@ d5$Version <- factor(c("Presentation 1","Presentation 2"))
 
 
 # Study 6 - Proportionality Test -------------------------------------------
+<<<<<<< HEAD
 ##d6.1 <- read.csv("know_wh_study6p1_Rdata.csv")
 ##d6.2 <- read.csv("know_wh_study6p2_Rdata.csv")
 
@@ -620,6 +994,11 @@ d6.1$question <- "know wh"
 d6.2$question <- "know that"
 
 d6 <- rbind(d6.1[,-2],d6.2) # NB: removes the 'Consent column to match arguments
+=======
+##d6 <- read.csv("know_wh_study6_Rdata.csv")
+
+## Go back through and change Proportion <- Condition
+>>>>>>> origin/master
 
 d6$Condition <- factor(c("3 of 3 false","2 of 3 false","1 of 3 false","0 of 3 false")[d6$Condition+1])
 d6$Condition <- factor(d6$Condition, levels = c("0 of 3 false","1 of 3 false","2 of 3 false","3 of 3 false"))
@@ -634,6 +1013,7 @@ d6 <- subset(d6,Lang=="English")
 d6.plot <- ggplot(d6, aes(x=Condition,y=Know,fill=Condition)) +
   ylab("Knowledge Ascription Agreement") +
   xlab("") +
+<<<<<<< HEAD
   facet_wrap(~ question) +
   coord_cartesian(ylim = c(1, 7)) +
   geom_boxplot() + 
@@ -641,10 +1021,17 @@ d6.plot <- ggplot(d6, aes(x=Condition,y=Know,fill=Condition)) +
   geom_jitter(aes(colour=Condition),  width = .5, height = .5, size=.9)+
   scale_colour_grey(start=0.05, end=0.5, name="Agent's Beliefs") +
   theme_bw()+
+=======
+  coord_cartesian(ylim = c(1, 7)) +
+  geom_boxplot() + scale_fill_discrete(name="Belief proportion") +
+  geom_jitter(aes(colour=Condition), position = position_jitter(width = .1), alpha = 0.5)+
+  scale_colour_hue(c=50, l=30, name="Belief proportion")+ 
+>>>>>>> origin/master
   theme(
     plot.background = element_blank()
     ,panel.grid.major = element_blank()
     ,panel.grid.minor = element_blank()
+<<<<<<< HEAD
     ,legend.title=element_text(size=rel(1.5),family="Times")
     ,legend.text=element_text(size=rel(1.75),family="Times")
     ,axis.text.x = element_blank()
@@ -684,6 +1071,31 @@ d6.0of3 <- subset(d6,Condition=="0 of 3 false")
 d6.1of3 <- subset(d6,Condition=="1 of 3 false")
 d6.2of3 <- subset(d6,Condition=="2 of 3 false")
 d6.3of3 <- subset(d6,Condition=="3 of 3 false")
+=======
+    ,legend.title=element_text(size=rel(1.5))
+    ,legend.text=element_text(size=rel(1.75))
+    ,axis.text.x = element_blank()
+    ,axis.text.y=element_text(size=rel(1.5))
+    ,axis.title.y=element_text(vjust=.75)
+    ,axis.ticks = element_blank()
+    ,axis.title=element_text(size=rel(1.75))
+    ,strip.text = element_text(size=rel(1.5))
+  )
+d6.plot
+#ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig6.png")
+
+#analyses
+lm.6 <- lm(Know~Proportion, data=d6)
+anova(lm.6)
+etaSquared(lm.6)
+
+print(d6.descip <- aggregate(Know ~ Proportion, d6, FUN=function(x) c(M =mean(x), SD =sd(x))))
+
+d6.0of3 <- subset(d6,Proportion=="0 of 3 false")
+d6.1of3 <- subset(d6,Proportion=="1 of 3 false")
+d6.2of3 <- subset(d6,Proportion=="2 of 3 false")
+d6.3of3 <- subset(d6,Proportion=="3 of 3 false")
+>>>>>>> origin/master
 
 ##0 of 3 vs. 1 of 3
 var.test(d6.0of3$Know,d6.1of3$Know)
@@ -700,6 +1112,7 @@ var.test(d6.2of3$Know,d6.3of3$Know)
 t.test(d6.2of3$Know,d6.3of3$Know,equal.var=TRUE)
 cohensD(d6.2of3$Know,d6.3of3$Know)
 
+<<<<<<< HEAD
 #### Meta-Analytic Graph ####
 
 ## May need this edits to make data consistent
@@ -708,6 +1121,16 @@ cohensD(d6.2of3$Know,d6.3of3$Know)
 d5$Study <- "5"
 
 d6 <- read.csv("know_wh_study6p1_Rdata.csv")
+=======
+### Meta-Analytic Graph ###
+
+##Edits to make data consistent
+d2$Know[d2$Negation=="Doesn't know where"] <- 8 - d2$Know[d2$Negation=="Doesn't know where"]
+
+d5$Study <- "5"
+
+d6 <- read.csv("know_wh_study6_Rdata.csv")
+>>>>>>> origin/master
 d6$Study <- "6"
 d6$Condition <- factor(c("All false","Mixed","Mixed","All true")[d6$Condition+1])
 d6$Lang <- factor(c("English","Not English")[d6$Lang-20])
@@ -715,6 +1138,7 @@ d6 <- subset(d6,Lang=="English")
 
 d <- rbind(d1[,c(2:3,20)],d2[,c(3,5,23)],d4[,c(2,4,23)],d5[,c(2:3,7)],d6[,c(3:4,20)])
 
+<<<<<<< HEAD
 ## for bootstrapping 95% confidence intervals
 library(bootstrap)
 theta <- function(x,xdata,na.rm=T) {mean(xdata[x],na.rm=na.rm)}
@@ -723,6 +1147,8 @@ ci.low <- function(x,na.rm=T) {
 ci.high <- function(x,na.rm=T) {
   quantile(bootstrap(1:length(x),1000,theta,x,na.rm=na.rm)$thetastar,.975,na.rm=na.rm) - mean(x,na.rm=na.rm)}
 
+=======
+>>>>>>> origin/master
 ds <- aggregate(Know ~ Study + Condition, d, mean)
 ds$ci.h <- aggregate(Know ~ Study + Condition, d, ci.high)$Know
 ds$ci.l <- aggregate(Know ~ Study + Condition, d, ci.low)$Know
@@ -737,7 +1163,11 @@ ds <- rbind(ds,do)
 ds <- ds[order(ds$Condition,ds$Study),]
 
 d.plot <- ggplot(ds, aes(x=Study,y=Know, colour=Condition)) +
+<<<<<<< HEAD
   ylab("Knowledge-wh Ascription Agreement") +
+=======
+  ylab("Knowledge Ascription Agreement") +
+>>>>>>> origin/master
   xlab("Study") +
   coord_cartesian(ylim=c(1,7)) +
   facet_grid(.~Condition) +
@@ -745,7 +1175,10 @@ d.plot <- ggplot(ds, aes(x=Study,y=Know, colour=Condition)) +
   geom_errorbar(aes(ymin=Know - ds$ci.l, ymax=Know + ds$ci.h),width=0.2) + 
   scale_colour_hue(c=50, l=30, name="Agent's Beliefs") +
   geom_vline(xintercept=5.45,lty=2) +
+<<<<<<< HEAD
   theme_bw() +
+=======
+>>>>>>> origin/master
   theme(
     plot.background = element_blank()
     ,panel.grid.major = element_blank()
@@ -758,7 +1191,11 @@ d.plot <- ggplot(ds, aes(x=Study,y=Know, colour=Condition)) +
     ,axis.ticks = element_blank()
     ,axis.title=element_text(size=rel(1.5))
     ,strip.text = element_text(size=rel(1.5))
+<<<<<<< HEAD
     ,panel.spacing=unit(1,"lines")
+=======
+    ,panel.margin=unit(1,"lines")
+>>>>>>> origin/master
   )
 d.plot
 #ggsave(file="C:/Users/Jonathan/Dropbox/Know-Wh Studies/allMaterials/Figures/Fig7.png")

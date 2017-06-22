@@ -102,6 +102,7 @@ Subj,Condition,Know,Time,Summary,Time_Control,Lang,Age,Gender,Ethnicity_1,Ethnic
 101,1,2,14.238,I thought they were the same stories,1,21,55,2,,,,,1,,,4,4,2
 102,1,3,71.668,In the first article Sue was told she could buy an itailian News paper at Paper world and Newstopia.,1,21,26,1,,,,,1,,,4,3,2
 103,1,7,19.135,"The first story, included two places in which Bob said an Italian Newspaper could be purchased, whereas the second story only one place was mentioned.  Also, Bob was not correct that both places had the paper, but in the second story, he was correct which dealt with only one place of business. ",1,21,32,1,,,,,1,,,4,5,2
+<<<<<<< HEAD
 1,2,7,115.46,"The lady wanted to buy an Italian newspaper and her friend told her two places, but only one place actually had them.",0,21,30,2,,,,,1,,,5,9,2
 5,2,6,4.381,In first story Bob gace Sue the right information. The second story Bob gave Sue misinformation. ,0,21,58,1,,,,,1,,,6,4,2
 9,2,4,8.063,"In the first story, Bob told Sue she can buy an Italian newspaper at Newstopia and he was correct. In the second Bob told Sue that she can be an Italian newspaper at Paperworld and Newstopia, but when Sue went to Papworld she found out that they don't sell newspapers.",0,21,25,2,1,,,,,,,5,6,2
@@ -205,3 +206,112 @@ Subj,Condition,Know,Time,Summary,Time_Control,Lang,Age,Gender,Ethnicity_1,Ethnic
 101,2,2,81.891,I thought they were the same stories,1,21,55,2,,,,,1,,,4,4,1
 102,2,3,82.976,In the first article Sue was told she could buy an itailian News paper at Paper world and Newstopia.,1,21,26,1,,,,,1,,,4,3,1
 103,2,2,83.244,"The first story, included two places in which Bob said an Italian Newspaper could be purchased, whereas the second story only one place was mentioned.  Also, Bob was not correct that both places had the paper, but in the second story, he was correct which dealt with only one place of business. ",1,21,32,1,,,,,1,,,4,5,1
+=======
+1,2,7,115.46,"The lady wanted to buy an Italian newspaper and her friend told her two places, but only one place actually had them.",0,21,30,2,,,,,1,,,5,9,1
+2,2,7,2.662,"In the first story, there was another store involved called PaperWorld.  Bob said PaperWorld, as well as Newstopia, sells Italian newspapers, but was incorrect.  PaperWorld did not sell Italian newspapers.",0,21,25,1,,,,,1,,,4,7,2
+3,2,7,3.845,"The differences is that in the first scenario, Bob was wrong in that PaperWorld does NOT sell Italian newspapers whereas in the second scenario, Bob was correct that Newstopia does sell Italian newspapers.",0,21,46,1,,,,,1,,,6,3,2
+4,2,7,4.313,The first time the story said the newspaper could be bought at a plavce where it could not be purchased and a place where it could. The second story told a place where the newspaper could be purchased.,0,21,72,1,,,,,1,,,4,6,2
+5,2,6,4.381,In first story Bob gace Sue the right information. The second story Bob gave Sue misinformation. ,0,21,58,1,,,,,1,,,6,4,1
+6,2,1,4.711,in the first story bob was right about were she can get the newspaper and she found it and the second story how it was different bob was wong,0,21,22,2,1,,,,,,,4,6,2
+7,2,7,5.087,"in the first story Bob was wrong about Newstopia, it did not sell italian newspapers. In the second he was correct about  about Newstopia, it DID sell italian newspapers.",0,21,19,1,,,,,,1,arab,4,5,2
+8,2,7,6.771,In both scenarios the character was trying to determine where to buy a paper while taking the advice of someone else.,0,21,27,2,,,,,1,,,3,6,2
+9,2,4,8.063,"In the first story, Bob told Sue she can buy an Italian newspaper at Newstopia and he was correct. In the second Bob told Sue that she can be an Italian newspaper at Paperworld and Newstopia, but when Sue went to Papworld she found out that they don't sell newspapers.",0,21,25,2,1,,,,,,,5,6,1
+10,2,5,8.286,they were similar but she made a few different actions,0,21,30,1,,,,,1,,,2,6,2
+11,2,4,8.579,"The difference is there are two stores in the second story. In both stories, Newstopia is recommended to sell Italian newspapers (and does). However, the second store (in the second story) was also recommended to sell Italian newspapers, but it doesn't.",0,21,28,1,,,,,1,,,5,7,1
+12,2,4,15.098,Bos misinformed Sue where she could buy an Italian newspaper in the first scenario. He informs her correctly in the second scenario.,0,21,35,2,,,,,1,,,5,5,2
+13,2,5,22.932,Sue needed an Italian newspaper and her friend told her where to get one. He was correct about one of the two stores he told her to go.,0,21,36,1,,,,,1,,,2,8,2
+14,2,7,27.093,"In one scenario, Sue was given wrong information on where to buy an Italian newspaper.",0,21,21,2,,,,,1,,,2,5,2
+15,2,1,40.89,"One sells office supplies like paper, the other sells newspapers.",0,21,24,1,,,,,1,,,2,9,2
+16,2,7,43.915,Sue took Bob at his word.,0,21,25,1,1,,,,,,,4,4,1
+17,2,6,54.022,Bob told her a second store had Italian newspapers also but it didn't.,1,21,53,2,,,,,1,,,5,4,1
+18,2,3,11.72,The first story had Bob being right about all the details while the second story had Bob being half right and half wrong,1,21,29,1,,,,,1,,,5,6,1
+19,2,4,11.754,"The first one he told her that she could buy an italian newspaper at a store called Newtopia, the second was about buying a newspaper at Paperworld",1,21,23,2,,,,,1,,,6,4,1
+20,2,5,12.912,Bob was incorrect about Paper world. but still correct about newstopia,1,21,21,1,,,,,1,,,4,8,1
+21,2,7,14.744,"In one story, Bob told her correct information about one store.  In the second story, Bob gave correct information about one store and incorrect information about a second store.",1,21,23,2,,,,,1,,,5,4,1
+22,2,6,15.887,"In the second story, Bob incorrectly mentioned a second store carried the newspaper, but it did not.",1,21,28,2,,,,,1,,,5,5,1
+23,2,7,16.216,"The first one, he told her the right place. The second story, he told her 2 places and 1 was wrong.",1,21,20,2,,,,,1,,,3,7,1
+24,2,4,16.225,One story has two stores and Bob is wrong about one of them,1,21,32,1,,,,,1,,,6,7,1
+25,2,4,17.4,"In the first story, Bob told Sue she could buy newspapers at Newstopia and he was right. In the second story, Bob told Sue she could buy newspapers at Newstopia and PaperWorld but there were no newspapers at PaperWorld.",1,21,21,1,,,1,,,,,4,6,1
+26,2,6,18.006,"In the first, Bob is entirely accurate. In the second, half of his statements were incorrect.",1,21,49,1,,,,,1,,,4,8,1
+27,2,6,18.848,A friend told a women where she could find an Italian newspaper.,1,21,21,2,,,,,1,,,2,8,1
+28,2,7,19.383,"In the first story there was only one store and it did sell Italian newspapers. In the second story there were two stores but only one sold newspapers, but Bob told Sue that both did.",1,21,27,2,,,,,1,,,8,5,1
+29,2,4,19.976,"In the first story, she was only told about one store and the information was correct.  In the second story, she was told about two store, but the information was only correct about one store.",1,21,37,1,,,,,1,,,5,4,1
+30,2,5,20.189,In one Bob was correct about where to buy newspapers and in one he was wrong.,1,21,30,2,,,,,1,,,4,7,1
+31,2,4,20.579,"in one Bob told her she could get an italian newspaper at Newstopia, and he was right, in the 2nd one he told her she could get an italian newspaper at both Newstopia and Paperworld, he was wrong about Paperworld but right about Newstopia",1,21,35,2,,,,,1,,,5,5,1
+32,2,7,20.802,In the first story only Newstopia was mentioned. In the second Paperworld was also mentioned.,1,21,57,2,,,,,1,,,4,9,1
+33,2,7,20.893,"In the first story Bob recommended Newstopia, which does sell Italian papers. In the second Bob recommended both Newtopia and Paperworld; however paperworld doesn't sell Italian newspapers.",1,21,19,2,,,,,1,,,4,9,1
+34,2,7,21.536,"in one account, sue gets ONLY the correct store from bob. In the other, sue is given two choices, one of which is incorrect and one which is correct.",1,21,28,1,,,,,1,,,5,5,2
+35,2,7,22.234,Sue only had one choice of store in the first scenario and it had the Italian newspaper. In the second scenario she had two choices and one of them was wroing.,1,21,20,1,,,,,1,,,4,6,1
+36,2,7,22.256,one involves paperworld,1,22,28,1,,,1,,,,,7,6,1
+37,2,6,22.564,"The first story, Bob told Sue that Newstopia had Italian newspapers, and was correct.  In the second story, Bob told Sue that both Newstopia and PaperWorld sold Italian newspapers, but was wrong about Paperworld.",1,21,34,1,,,,,1,,,3,6,1
+38,2,5,22.664,In the first story Bob gave her the correct advice on where to buy the Italian newspaper.  In the second only 1 of the 2 stores Bob recommended sold Italian newspapers.,1,21,24,1,,,,,1,,,4,8,1
+39,2,7,23.342,The first story only included the successful part of Sue's adventure.  It did not tell us that Bob was actually incorrect about Paperworld as well as being completely correct about Newstopia.,1,21,24,1,,,,,1,,,5,5,1
+40,2,7,24.744,"In the first story Bob told Sue one store where she could buy an Italian newspaper and he was correct. In the second story, Bob told Sue two stores where she could buy an Italian newspaper, but he was only correct about one store.",1,21,21,1,,,,,1,,,4,8,1
+41,2,7,24.78,one had a coice of two shops and the other just the one,1,21,44,1,,,,,1,,,4,6,2
+42,2,7,24.97,"In one story, Bob correctly informed Sue that she could buy an Italian newspaper at Newstopia. In another story he informed her that she could buy an Italian newspaper at Paper World and Newstopia, however only Newstopia carries Italian newspapers.",1,21,28,2,,,,,1,,,6,6,1
+43,2,4,25.124,"In the second story Bob gave 2 recommendations but only 1 of them was correct, compared to the 1 correct recommendation given in the first story.",1,21,31,1,1,,,,,,,5,7,1
+44,2,5,25.215,"In the first story, Bob told Sue she could buy an Italian newspaper at PaperWorld or Newstopia in his town. She found out that the information about PaperWorld was wrong.  In the second story, Bob told Sue she could buy an Italian newspaper at Newstopia and that was correct. ",1,21,38,2,,,,,1,,,5,5,2
+45,2,5,25.565,At first we think that Sue is told correctly where the Italian newspaper is because that is all the information we have and all the information that Sue has.  Sue really thinks she knows where to get that newspaper.  We then later find out that Bob was wrong in telling Sue where to get the newspaper so then apparently Sue does not know where to get a newspaper.,1,21,23,2,,,,,1,,,4,6,1
+46,2,1,25.804,"THE FIRST THERE WERE TWO STORES, ONE WHICH HAD THE NEWSPAPER, ANOTHER THAT DIDN'T.",1,21,41,1,,1,,,,,,4,6,2
+47,2,4,25.92,"One had one store called Newstopia that did sell the paper and the other had two, Paperworld and Newstopia and Paperworld didn't sell. ",1,21,34,2,,,,,1,,,4,6,1
+48,2,7,26.942,"Paperworld sells stationary and paper products, while Newstopia sells newspapers.",1,21,37,2,,,,,1,,,4,8,1
+49,2,7,27.425,Bob was correct in only one story,1,21,18,2,1,,,,,,,2,5,1
+50,2,7,27.871,"The first scenario only mentioned one store that did indeed have the Italian newspaper.  The second scenario mentioned two stores.  Only one of the two had the Italian newspaper (the same store as in scenario one).  Either case, she did in fact know where to get the newspaper once she knew that the store Bob mentioned in scenario one had it. ",1,21,46,2,,,,,1,,,4,7,1
+51,2,7,29.393,"In the first story, Bob informs Sue she can buy a newspaper at Newstopia, which is true.  In the second story, he tells her she can buy one at Newstopia and Paperworld, but that's not true because Paperworld doesn't sell newspapers.",1,21,28,2,,,,,1,,,4,7,1
+52,2,7,29.794,"The first story Sue received correct information , while in the second story the information Sue received was partially correct. ",1,21,25,1,1,,,,,,,5,6,1
+53,2,4,29.84,"In the first story, Sue's friend knew that Newstopia sold the Italian newspaper. However, in the second, he advised both Newstopia and Paperworld did. He was incorrect in his latter assumption.",1,21,35,2,,,1,,,,,5,5,1
+54,2,6,30.624,The total amount of information presented determined if Sue had correct information or not.,1,21,32,1,,,,,1,,,5,8,2
+55,2,4,30.888,The second story has Bob misleading Sue on the location of where she could buy an Italian Newspaper.,1,21,26,1,,1,,,,,,5,4,1
+56,2,7,32.323,The second story left out the fact that bob misinformed Sue about paperworld,1,21,35,2,,,,,1,,,5,4,2
+57,2,7,32.906,The first story Bob told Sue about PaperWorld and in the second story he only told her about Newstopia,1,21,26,2,,,,,1,,,2,6,2
+58,2,7,33.817,"In the first story Bob told Sue that she could buy an Italian Newspaper at two places.  One of the places carried the newspaper, while the other didn't.  In the second story Bob told Sue one store to buy the Italian newspaper and he was correct.",1,21,32,2,,,,,1,,,7,3,2
+59,2,7,33.908,In neither case does Sue know she can buy the newspaper until she has tried it...but Bob's opinion being wrong on the second incident would lead to doubt his knowledge on the first.,1,21,65,2,,,,,1,,,6,6,1
+60,2,1,34.004,"The first story stated that Bob was correct that NewsTopia had Italian newspapers.  In the second one, Bob was incorrect in saying that PaperWorld also sold Italian newspapers.",1,21,25,2,1,,,,,,,4,7,1
+61,2,4,34.129,In the first story Sue's friend gave her good advice on where to buy an Italian newspaper. In the second story Sue's friend gave good advice on one shop and bad advice on the second shop.,1,21,36,2,,1,,,1,,,5,7,1
+62,2,5,34.619,"The first story mentioned 2 stores of which to buy an Italian newspaper, however one of the stores really did not. The second story only mentioned one store.",1,21,32,1,,,,,1,,,4,4,2
+63,2,7,35.031,"In one, Sue discovered that one of the two stores only had stationary, while in the other scenario she only visited one store that had the Italian newspapers.",1,21,27,2,,,1,,1,,,6,6,2
+64,2,3,35.993,"A girl name Sue listens to her friend Bon, about where she can buy an Italian newspaper",1,21,,2,,,,,1,,,4,5,1
+65,2,4,36.688,Bob told her different stores to buy her newspaper,1,21,24,1,,,,,1,,,5,7,2
+66,2,2,36.71,"In the first one Bob told Sue she could buy an Italian paper at Paperworld, which sells stationary, but was correct about Newstopia. In the second Bob told her to go to Newstopia and not Paperworld.",1,21,24,2,,,,,1,,,4,8,2
+67,2,3,38.808,"The difference is that in the first story there is PaperWorld, which Bob was incorrect in telling sue it sells Italian newspapers.",1,21,43,1,,,,,1,,,5,7,2
+68,2,5,39.403,The two stories differ in details about Bob and whether he was correct about where to buy a newspaper.,1,21,26,1,,,,,,,,5,5,2
+69,2,1,39.765,In the first story Sue had a 50% chance of going to a store that did not sell newspapers. ,1,21,19,2,,,,,1,,,4,5,2
+70,2,3,39.802,"Bob told Sue correctly about where she could get an Italian newspaper in the first story, then told her wrongly in the second.",1,21,42,2,,,,,1,,,4,4,1
+71,2,7,39.816,Sue is standing in front one one story instead of two int hes second one.,1,21,23,1,,1,,,,,,4,5,2
+72,2,2,39.929,"In the first story, Bob told Sue she could buy a newspaper at two stores. In the second story, he told her about one store. ",1,21,24,2,,,,,1,,,4,7,2
+73,2,1,40.713,Newstopia sells Italian Newspapers wheras Paperworld does not. Su'es friend misinformed her when he stated that both sold italian newspapers,1,21,49,2,,,,,1,,,4,10,2
+74,2,4,41.498,Paperworld sells stationary and the other store has the newspaper,1,21,56,2,,,,,1,,,6,8,1
+75,2,7,42.743,"First story had two choices of buying newspapers, wheras the second one only had one choice.",1,21,47,1,,,,,1,,,6,5,2
+76,2,4,43.473,Sue had to find out that Bob was wrong about PaperWorld before she went to Newstopia to find out he was right about being able to get an Itilian newspaper there. She went to Newstopia in the second scenario assuming Bob was right.,1,21,53,1,,,,,1,,,2,8,2
+77,2,7,46.318,"In the first story, Bob was incorrect about PaperWold selling Italian newspapers, but correct about Newstopia and in the second story Paperworld was not part of the story.",1,21,38,2,,,,,1,,,5,7,2
+78,2,6,47.078,"the first was simple, Bob told Susan one fact.  In the second story, Bob was right about one store and wrong about another.  Still, based on his information, Sue now knows where she can buy an Italian newspaper.  If she goes to the correct store first,  she will buy the newspaper there.  if she goes to the stationary store first, she can go to the correct store afterwards and get the newspaper there.",1,21,57,1,,,,,1,,,5,5,1
+79,2,7,47.324,"In story number 2 Bob was wrong about one of the stores, however he did inform her each time of where she could get her newspaper.",1,21,30,2,,,,,1,,,4,7,1
+80,2,7,48.584,"One give two choices as to where she can buy the newspaper, the other gives her only one choice to purchase it.",1,22,41,1,,,1,,,,,5,7,2
+81,2,4,51.074,"The first one says that Bob knows where Sue can buy an Italian newspaper and that place is at Newstopia.  The second story is where Bob says she can get an Italian newspaper at Newstopia and Paperworld, but he was incorrect about Paperworld",1,21,43,2,1,,,,,,,5,5,1
+82,2,7,52.195,"In the first story Sue was given some bad advice by Bob. PaperWorld did not sell newspapers, but Newsopia did. In the second one, Bob gave her good advice . Sue gets her newspaper in both scenarios. ",1,21,34,2,,1,,,1,,,5,6,2
+83,2,7,52.319,"In the first story Bob misinformed her about one of the store, instead of selling newspapers it sells office supplies, but he was correct about the store that sells Italian newspapers.",1,21,22,2,1,,,,,,,5,6,2
+84,2,7,54.601,Bob was correct in the first story but incorrect about one of the two options he offered Sue in the second story.,1,21,47,1,,,,,1,,,5,7,1
+85,2,7,55.985,"In both of the stories, she was told where she could purchase an Italian newspaper. In the first story, Bob only told her about one place she could buy an Italian paper and he was correct. In the second story, Bob told her 2 places where she could buy an Italian paper but only one of them was correct.",1,21,31,2,,,,,1,,,4,5,1
+86,2,7,56.684,"In one story Bob new where she could buy an Italian newpaper and he was correct, in the other story Bob was wrong. There was no Italian newspaper there.",1,21,44,2,1,,,,,,,5,4,1
+87,2,2,57.127,"In the first story, Bob told Sue that both Newstopia and PaperWorld had Italian newspapers even though only Newstopia actually did while in the second story Bob correctly stated Newstopia sold Italian newspapers.",1,21,35,1,1,,,,,,,5,7,2
+88,2,5,57.728,There was no choice of where the buy a paper in the second story. In the first he gave wrong information so there is doubt created.,1,21,28,1,,,,,1,,,5,6,2
+89,2,4,58.301,the second story does not mention PaperWorld,1,21,43,1,,,,,1,,,4,6,2
+90,2,7,58.81,The first story Sue was presented with two places that Bob said she could buy an Italian newspaper when in reality only one offered it. The second story Sue was presented with the one choice which did in fact sell Italian newspapers.,1,21,36,1,,,,,1,,,4,6,2
+91,2,4,59.346,"the diiference between these two stories is that in the first story, Sue was not located near a newstad and her friend Bob gave her two options to find newspapers instead of one. In the second story, Sue was near the newspaper stand and her friend told her Newstopia sold newspapers. ",1,21,22,2,1,,,,,,,5,5,2
+92,2,4,59.444,"The first story, Bob told Susan she could buy an Italian newspaper at 2 different stores when in fact only one of them had it. The second story Bob told Susan that she could buy the same newspaper at only 1 store. ",1,21,28,1,,,,,1,,,5,6,2
+93,2,1,61.005,Sue was standing in front of a store called Newstopia and her friend Bob told her she could buy an Italian newspaper at that store and he was right.  the second story Bob told Sue she could by a newspaper at Paperworld or Newstopia but Bob was wrong about  Paperworld and the Italian newspaper was at Newstopia. ,1,21,58,2,,,,,1,,,4,6,1
+94,2,7,64.183,The first story she was told by bob a correct and an incorrect place she could buy an Italian Newspaper.  In the second she was told a correct place to buy a paper.,1,21,33,1,,,,,1,,,6,6,2
+95,2,4,67.965,story1 Bob is giving misinformation. story 2 bob is giving correct information,1,21,41,1,,,,,1,,,4,5,2
+96,2,4,68.072,"The first story is about Sues friend Bob who is intelligent and trustworthy and knows that Newstopia sells an Italian Newspaper and Sue goes there to buy it. The second story also depicts Bob but instead states that paperworld as well as Newstopia sells an Italian newspaper, but Bob was wrong about paperworld selling Italian Newspapers.",1,21,31,1,,,,,1,,,5,7,1
+97,2,4,68.087,They were the same.,1,21,58,2,,,,,1,,,2,4,2
+98,2,4,69.046,the first story listed 2 stores and the second one only listed 1 store. ,1,21,51,2,,,,,1,,,2,7,2
+99,2,7,71.499,"Bob told Sue she could buy the Italian newspaper at two stores in the first story, which was incorrect. Bob told Sue she could buy the newspaper at Newstopia in the second story which was correct.",1,21,67,2,,,,,1,,,4,6,2
+100,2,6,73.175,"The first story was more detailed, while the second story was more straight to the point.",1,21,32,1,1,,,,,,,3,9,2
+101,2,2,81.891,I thought they were the same stories,1,21,55,2,,,,,1,,,4,4,2
+102,2,3,82.976,In the first article Sue was told she could buy an itailian News paper at Paper world and Newstopia.,1,21,26,1,,,,,1,,,4,3,2
+103,2,2,83.244,"The first story, included two places in which Bob said an Italian Newspaper could be purchased, whereas the second story only one place was mentioned.  Also, Bob was not correct that both places had the paper, but in the second story, he was correct which dealt with only one place of business. ",1,21,32,1,,,,,1,,,4,5,2
+<<<<<<< HEAD
+=======
+,,7,115.46,,,,,,,,,,,,,,,
+>>>>>>> 7047eb848d42987a1a04bd63eb80f4da979852a9
+>>>>>>> origin/master

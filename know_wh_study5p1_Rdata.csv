@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Subj,Condition,Know,Time,Version,Lang,Age,Gender,Gender_TEXT,Ethnicity_1,Ethnicity_2,Ethnicity_3,Ethnicity_4,Ethnicity_5,Ethnicity_6,Ethnicity_6_TEXT,Education,SES
+=======
+Participant,Condition,Knowledge,Time,Version,Lang,Age,Gender,Gender_TEXT,Ethnicity_1,Ethnicity_2,Ethnicity_3,Ethnicity_4,Ethnicity_5,Ethnicity_6,Ethnicity_6_TEXT,Education,SES
+>>>>>>> origin/master
 7,3,1,48.514,1,21,31,1,,,1,,,,,,4,6
 10,3,1,21.653,1,21,30,1,,,,,,1,,,5,6
 19,3,1,24.831,1,21,25,1,,,,1,,1,,,5,4
