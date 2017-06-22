@@ -25,7 +25,7 @@ d2.6 <- read.csv("know_wh_study2p6_Rdata.csv") # Doesn't know where to buy
 d3 <- read.csv("know_wh_study3_Rdata.csv")
 ## Study 4: Relevance-Implicature
 d4 <- read.csv("know_wh_study4_Rdata.csv")
-##study 5: Generalization to other imbeded questions
+##study 5: Generalization to other embeded questions
 d5.1 <- read.csv("know_wh_study5p1_Rdata.csv") # Knows how
 d5.2 <- read.csv("know_wh_study5p2_Rdata.csv") # Knows who
 ##study 6: Porportionality Test
