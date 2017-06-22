@@ -1,0 +1,202 @@
+Subj,Condition,Know,Time,Summary,Lang,Age,Gender,Gender_TEXT,Ethnicity_1,Ethnicity_2,Ethnicity_3,Ethnicity_4,Ethnicity_5,Ethnicity_6,Ethnicity_6_TEXT,Education,SES
+6,0,1,26.636,"Sue was told by her friend, Bob, that all three stores in a particular area sold Italian newspapers.  However, Sue discovered that Bob was wrong.  Two of the stores are stationary shops, and the other sells T-shirts.",21,37,2,,,,,,1,,,8,5
+8,0,7,80.25,Bob gave Sue bad information about which stores carry Italian newspapers,21,36,2,,,,,,1,,,4,8
+12,0,6,56.598,her friend gave her bad information about stores that he claimed sold certain newspapers.,21,48,1,,,,,,1,,,4,10
+16,0,7,52.128,"Sue was standing near the shops.  Her friend Bob, who she thinks is always right,  misinformed her about what the stores sold.  He told her they sold Italian newspapers when in fact to were stationary stores and one a t-shirt store.",21,55,2,,,,,,1,,,2,7
+18,0,1,42.683,"Sue was told by Bob that she could get Italian newspapers at any of three stores, but none of them actually sell Italian newspapers.",21,49,1,,,,,,1,,,4,6
+19,0,4,45.404,"Sue sees three stores that she is unfamiliar with.  She asks her friend, Bob, who has lived in the city all his life, what the stores were for.  Bob told her things that weren't accurate; the stores weren't what he told her they were.",21,61,2,,,,,,1,,,2,9
+28,0,1,56.377,Sues friend mislead her to believe all three stores sold italian newspaper when that was not true. ,21,36,2,,,,,,1,,,4,8
+29,0,6,101.133,"Sue was standing at a corner near 3 stores.  Her friend, Bob, informed her that they all sold Italian newspapers.  Sue had no reason to doubt.",21,59,2,,,,,,1,,,4,8
+33,0,2,25.107,sue thinks all three stores sell Italian newspapers,21,33,1,,1,,,,,,,5,5
+37,0,1,116.704,a woman was standing outside three stores that she was informed could sell her an italian newspaper but she was misinformed,21,42,1,,,,,,1,,,2,8
+44,0,6,87.406,"With the current information Sue has from her trusted friend, Bob, she believes that she can in fact buy an I(talian newspaper at that store although she is not absolutely able to ""know"" that she can without going there herself or having more information to compare with Bob's.",21,47,1,,,,,,1,,,4,8
+46,0,4,86.883,sue asked for directions to get Italian newspapers only to be misinformed about it,21,26,2,,,1,,,,,,3,7
+49,0,5,44.975,Sue's friend told her that she could buy an italian newspaper at each of three shops in town when in reality none of them sell newspapers at all.,21,52,1,,,,,,1,,,4,8
+57,0,1,54.853,"Sue thinks three stores all sell Italian newspapers because her friend, a native of the city, told her so. But he was wrong and none of them sell the papers.",21,23,2,,,,,,1,,,4,9
+61,0,1,427.65,"Bob told Sue that three stores sold Italian newspapers, only to find out that none of them did. He lived in the area, so she had no reason to doubt his knowledge.",21,25,2,,,,,,1,,,4,6
+62,0,5,37.706,"There are three stores: Newstopia, Cellulose City, and PaperWorld. Sue's friend Bob has told her that all three sell Italian newspapers, but, in fact, they sell politically-minded t-shirts and stationery.",21,27,2,,,,1,,,,,6,6
+69,0,7,55.696,sue is informed incorrectly by her friend about some magazines,22,26,2,,,,,,1,,,5,5
+72,0,7,15.619,Acceptable,21,30,1,,,,,,1,,,5,1
+74,0,3,49.682,"Sue took advice from Bob, who is a local of the city, but he was wrong. ",21,28,2,,,,,,1,,,6,7
+78,0,7,64.939,Sue's friend says an Italian newspaper can be purchased at three stores.  Sue feels Bill is trustworthy but he has not told her the truth.,21,67,2,,,,,,1,,,6,6
+88,0,6,66.77,Sue's friend Bob told Sue that three stores in close proximity sell Italian newspapers. Sue believes Bob because he is normally right . None of the stores sell Italian newspapers.,21,55,2,,,,,,1,,,4,5
+89,0,7,76.078,sue was missinform by a friend about some imformation about some stores,21,38,2,,1,,,,,,,2,7
+93,0,1,40.153,It was about a girl who misinformed her about three stores that he assumed sold a certain newspaper,21,25,1,,1,,,,,,,4,8
+99,0,7,51.485,sue is lied to by bob. sue assumes bob is always right when he isnt,21,26,1,,,,,,1,,,2,7
+104,0,1,50.255,Sue is told that she can buy Italian newsletters at three different stores by her friend but her friend was wrong and she can't actually buy the newsletter at any of them.,21,28,1,,,,,,1,,,6,5
+108,0,7,45.965,Sue is near three stores of which she's been wrongly told by her trusted friend that they all sell Italian newspapers.,21,39,2,,1,,,,,,,6,8
+111,0,1,50.921,Sue was told by her friend that she could buy Italian news papers at the three shops however two of the shops actually sell stationary while the third sells shirts.,21,29,2,,,,,,1,,,4,7
+115,0,4,80.102,"Sue wanted an italian newspaper so she asked her friend Bob, who knows the city well, where one could be purchased. Bob tells her the names of three stores, Paperworld, Cellulose City and Newtopia. Sue went to each store, but found that none of them sold italian newspapers. ",21,33,2,,,,,,1,,,5,5
+120,0,1,63.382,"Sue wanted to buy an Italian newspaper but she didn't know where to go. Bob, a friend she trust, told her 3 stores to go to. She believed him but he was wrong.",21,57,2,,1,,,,,,,2,6
+124,0,1,124.147,Sue is standing on a street corner near 3 stores. Sue wants to buy an Italian Newspaper. Her friend Bob tells her that she can buy an Italian Newspaper at any of the three stores. It turns out that Bob is wrong and none of the stores sells an Italian paper.,21,36,1,,,,,,1,,,5,5
+130,0,1,56.871,Sue trusted her friend Bob's recommendation that she could buy an Italian newspaper at the three stores she went to shop. None of the stores sold Italian newspapers.,21,27,1,,,,,,1,,,8,4
+132,0,1,43.815,"sue is told by bob that cellulose city, paper world and newstopia all sell Italian newspapers.  This is not true as the first two shops sell stationary and newstopia sells obnoxious tshits",21,48,2,,,,,,1,,,5,4
+135,0,1,52.281,A friend told her that three different stores sold Italian newspapers and she trusted this friend but it turns out he was wrong.,21,21,1,,,,,,1,,,4,7
+140,0,4,52.154,Sue would like to buy Italian newspapers which Bob gave her 3 locations of. However Bob was wrong because the 3 locations do not sell Italian newspapers.,21,34,1,,,,1,,,,,5,4
+142,0,1,37.923,She was told all places sold italian newspapers but they don't.,21,39,2,,,,,,1,,,4,6
+149,0,2,34.915,"Sue wanted to buy an Italian paper, but trusted a friend who was mistaken.",21,32,1,,,,,,1,,,4,8
+150,0,1,50.661,"A friend jokingly told her that three stores sold Italian newspapers, but they did not.",21,30,2,,,,,,1,,,4,8
+155,0,5,67.412,Sue's friend mislead her about the type of stores she's standing near,21,31,2,,,,,,1,,,5,8
+160,0,7,51.161,"Sue was told by Bob about 3 different news places that sell Italian newspapers. Sue trusts him because he's always well informed and in the know. However, the 3 places Bob told Sue about were completely wrong but Sue still believes it.",21,26,1,,,,,,1,,,5,7
+162,0,3,41.504,"Sue was led to believe that three stores sold Italian newspapers, but this was actually false information. ",21,26,1,,,,,,1,,,6,4
+168,0,5,39.023,Bob told an incorrect state about all three stores to Sue and she is now misinformed.,21,23,1,,,,,,1,,,4,8
+169,0,1,24.942,Bob misinformed Sue.,21,27,1,,,,,1,,,,4,8
+174,0,6,31.292,Sue's friend Bob says that the three stores sell Italian newspapers but in reality they don't. Sue assumes BOB is right because he always is and believes him. ,22,20,2,,,,1,,,,,4,6
+181,0,3,31.056,"Sue's friend Bob told her that three different shops sold Italian newspapers, when in reality none of them do.",21,43,1,,,,,,1,,,5,5
+189,0,7,21.332,"Sue was told she could buy an italian newspaper in three stores, but really none of the stores carry them.",21,24,1,,,,,,1,,,5,8
+195,0,1,64.77,Sue was told she could buy italian newspapers on 3 shops in town by her friend who was a native of the city. He turned out to be wrong and none of them sold newspapers,21,18,1,,1,,,,1,,,4,5
+196,0,6,64.282,"Sue's friend Bob gave her wrong info about 3 stores carrying Italian newspapers, when in fact, not one of them did.",21,60,2,,,,,,1,,,6,6
+199,0,7,121.458,"Sue is looking for Italian newspapers.  Her friend, Bob, tells her that all 3 of the stores (PaperWorld, Newstopia, and Cellulose City) sell them.  She believes Bob because he is usually a very trustworthy and informed person.  It turns out none of the stores actually sell Italian newspapers.",21,27,1,,,,,,1,,,2,5
+1,1,4,2.787,It was about a person,21,24,1,,,1,,,,,,4,6
+2,1,7,35.172,Sues friend told her she could buy newspapers from 3 stores but actually she can only buy newspapers from one of the stores.,21,31,1,,1,,,,,,,5,6
+9,1,7,42.129,Bob told Sue where to buy an Italian newspaper at three stores,21,33,2,,,,,,1,,,4,5
+13,1,6,45.395,Sue goes to a city where Bob is knowlegable and he tells her three stores all sell italian newspapers. Bob was wrong about 2 stores.,21,29,1,,1,,,,,,,2,7
+14,1,7,40.234,"Sue is in a new city in front of three shops, her friend who lives there telling her --erroneously-- that all three stores sell Italian newspapers",21,43,1,,,,,,1,,,5,9
+22,1,7,37.765,Sue was told by a knowledgeable friend the names of three stores that sell Italian newspapers. However two are stationary stores and only one sells newspapers. ,21,51,2,,,,,,1,,,6,2
+24,1,7,34.926,"bob told his friend sue about 3 stores that sell italian newspapers. however, only one sells them",21,35,1,,,,,,1,,,2,9
+25,1,7,91.983,"There are 3 stores that Sue never shopped at before, but her friend who has never been wrong before told her that she could by a foreign newspaper.  He was wrong on 2 of them, however the store she is intending to visit does carry the paper so all is well.  ",21,51,2,,,,,,1,,,4,7
+31,1,7,28.979,Bob misinformed Sue about where Sue can purchase Italian Newspapers by telling her incorrectly that 2 out of the three carry those papers.,21,39,1,,,,,,1,,,5,5
+36,1,6,44.013,"There were 3 shops to buy Italian newspapers, however the friend was incorrect about 2 of the shops that only sold stationary products. He was right about Newstopia who sold newspapers. ",21,48,2,,,,,,1,,,5,3
+40,1,3,27.626,sue was misinformed by her friend thst specific stores sold certain items,21,68,2,,,,,,1,,,2,6
+42,1,6,23.482,A man told a woman that she could get an Italian newspaper at 3 different shops when in fact 2 were stationary stores and she could only purchase a newpaper at one.,21,33,1,,,,,,1,,,6,4
+45,1,7,47.728,"Bob informed Sue that three stores near each other all sell Italian newspapers. However, only one of them actually does, Newstopia. The other two are stationery stores.",21,24,2,,,,,,1,,,4,7
+48,1,7,71.645,Bob told Sue that three stores sold Italian Newpapers but it turned out only one of those stores did.,21,45,1,,,,,,1,,,4,8
+54,1,6,45.146,"Sue has a friend name Bob who told her she can buy Italian newspapers at three stationary stores nearby. The problem is that only one of them actually sells Italian newspapers. Sue usually trusts her friend Bob to be right about most things, but this time he is wrong.",21,57,1,,,,,,1,,,2,6
+55,1,6,55.991,"Sue's friend Bob told her three stores sold italian newspapers, when actually only one did, Newstopia.",21,50,2,,,,,,1,,,2,6
+64,1,7,38.827,"Sue was by three different stores. She had spoken with Bob previously about buying an Italian newspaper, he had told her that she could buy one at any of the three stores. Sue went to the three stores and found that Bob was incorrect, she could only buy an Italian newspaper from one of the stores.",21,40,1,,,,,,1,,,5,3
+67,1,6,33.963,Bob told sue she could buy the Italian newspaper in all three stores but she is only able to buy it at one.,21,24,1,,,1,,,,,,4,9
+71,1,7,49.266,"There were three stores that were new to Sue. Bob misinformed her that they all sold Italian newspapers while in fact only 1 did, and the other 2 stores were stationary stores",21,29,1,,,,,,1,,,6,4
+77,1,7,46.08,Bob lied about what the stores sold,21,19,2,,,,,,1,,,2,6
+81,1,7,85.925,"goes to show-you should check information yourself rather than taking some,s word",21,65,2,,,,,,1,,,2,7
+83,1,6,49.758,Sue was standing next to 3 stores. Her friend Bob told her all 3 stores sold Italian newspapers but really only one store did and the other 2 stores sold stationary.,21,30,2,,,,,,1,,,5,6
+86,1,7,24.214,sue was in a city and standing next to three stores. her friend told her you couldy buy italian newspapers at all three but in fact you could only buy it at one as the other two were stationary shops,21,32,1,,,1,,,,,,5,6
+90,1,6,52.719,"Sue is looking to buy an Italian newspaper. She received information from a friend who is native to the city and believes that there are 3 stores she can purchase the newspaper at. In reality, only 1 of the stores sell newspapers.",21,32,2,,1,,,,1,,,6,6
+95,1,7,81.227,Sue asked Bob where she can buy Italian newspapers. Bob gave her the wrong advice and told her could buy from all three shops.,21,23,1,,,,1,,,,,5,6
+100,1,7,38.736,Sue and Bob were standing on a city corner and bob told sue that you can buy a italian newspaper at anyone of the three shops on that corner ,21,29,2,,,,,,1,,,4,5
+102,1,2,35.534,"Bob gave Sue information about 3 stores, but he was wrong about 2 of the stores",21,31,2,,,,,,1,,,4,9
+107,1,1,45.344,"A person named  Sue wasws standing near three store and her friend Bob, who is a native of the city, told her that all three shops sell Italian newspapers. Sue believed this unquestioningly. But in reality, Bob was wrong and only one of the shops sold newspapers.   ",21,26,1,,,,1,,,,,4,8
+113,1,5,48.314,"Sue was told that three stores sold Italian newspapers and believed it. However, only one of the three actually did.",21,55,2,,,,,,1,,,5,4
+117,1,7,45.32,Bob misinformed Sue as to where she could buy an Italian newspaper. ,21,37,2,,,,,,1,,,4,5
+118,1,6,40.344,BOB GAVE HER ADVICE ABOUT WHERE TO BUY ITALIAN NEWSPAPERS BUT THE VERY RELIABLE BOB WAS WRONG ABOUT TWO OUT OF THE THREE PLACES.,21,54,1,,,,1,,,,,5,6
+123,1,7,55.729,Sue is visiting and there are 3 places that her friend Bob who has lived in the city a long time told her she can buy newpapers. He was incorrect however and newpapers can only be bought from 1 of the 3 locations he mentioned.,21,25,1,,,,,,1,,,4,7
+127,1,5,19.706,It was about purchasing an item in different locations,21,25,1,,,,1,,,,,5,7
+133,1,4,47.427,Three paper locations that Bob said sue could find Italian newspaper,21,63,1,,,,,,1,,,6,5
+136,1,7,35.432,"sue wanted to know where to get italian newspapers and bob told her three places, one which didn't have italian newspapers.",21,27,2,,,1,,,,,,4,5
+137,1,7,30.01,Bob and Sue were discussing local stores with similar names. He gave her incorrect information about what they sell. She believed him and nothing exiting happened.,21,23,2,,,,,,1,,,3,8
+141,1,7,50,"Bob told Sue that she can purchase Italian newspapers at Celluose City, PaperWorld, and another store, but only one of those was actually sold Italian newspapers and the rest were stationary stores.",21,23,1,,,,,,1,,,5,4
+143,1,7,26.987,the woman was looking for italian newspapers and was slightly misinformed by her friend. ,21,30,1,,,,,,1,,,5,8
+153,1,7,26.238,"Bob was telling Sue which papers she could buy. However, some of the information he gave her was false.",21,28,1,,,,,,1,,,5,3
+154,1,6,37.589,"Sue's friend, Bob, told her that she can buy Italian newspapers at several stores, but in reality she can only get them at Newstopia.",21,34,2,,,1,1,,,,,5,7
+156,1,4,37.546,bob told sue 3 places shr could buy italuan Paper. only one store actually caries tge paper.,21,34,2,,,,,,1,,,8,6
+159,1,7,49.631,"Sue asks her friend Bob where she can buy an Italian newspaper. Bob is a native to the city and tells her all 3 shops sell Italian newspapers, however bob was wrong and only 1 does.",21,27,2,,,,,,1,,,4,7
+161,1,7,46.688,Bob told Sue two wrong places and one correct place to get a newspaper.,21,26,1,,,,,,1,,,4,9
+172,1,6,88.079,"Sue is near PaperWorld, Cellulose City, and Newstopia. Bob told her that they all sell Italian newspapers. Only one of them does though, and Bob completely misinformed her.",21,20,1,,,,,,1,,,4,5
+173,1,7,36.533,"Sue and Bob were standing near three stores called PaperWorld, Cellulose City, and Newstopia. Bob tells Sue that they all sell Italian newspapers. Sue assumed this info was correct, even though Bob was actually wrong. ",21,56,2,,,,,,1,,,2,9
+176,1,7,46.496,"Sue was near three stores. Her friend Bob told her they all sell an italian newspaper and she believes him. In reality, only one store sells the newspaper and the others are stationary stores.",21,26,2,,,,,,1,,,5,7
+178,1,1,61.412,a lady was told that she could buy italian newspapers at each of 3 shops but was misinformed about two of the three,21,41,2,,1,,,,,,,5,7
+183,1,6,23.887,"Bob, generally a smart person, misinformed Sue about the contents of 2 stores in their city.",21,33,2,,,,,,1,,,5,7
+187,1,7,33.71,Bob told Sue that she could buy Italian newspapers at 3 different stores. Bob was only right about one of the stores though. ,21,34,1,,,,,,1,,,6,6
+188,1,7,24.715,"Bob thought three store sold newspapers, and told Sue she could buy an Italian newspaper at any of the three. However, two did not sell newspapers, but regular paper. Bob is just plain ridiculous and probably was taken aback by Sue's beauty and got stupid. Not enough blood to the head, if you get my drift. *nudge nudge wink wink*",21,31,2,,,,,,1,,,5,9
+190,1,7,75.546,"Sue has a friend named Bob who is well-informed and he told her that there were three shops where should could buy Italian newspapers. He was only correct about Newstopia, as the other two shops were stationary shops.",21,26,1,,,,,,1,,,2,6
+197,1,7,38.19,Susie was standing near 3 shops her friend Bob told her sold Italian newspapers. However only one did.,21,32,1,,,,,,1,,,5,4
+201,1,7,33.844,"Sue got information from her, normally well-informed, friend, Bob. However, the information wasn't totally correct.",21,23,2,,,,,,1,,,5,7
+5,2,4,49.717,"Sue is unsure if she can buy an italian newspaper somewhere, and Bob does not actually know, but he thinks he does. I think it's a Gettier problem example. ",21,33,2,,,,,,1,,,5,6
+7,2,6,23.196,Bob misinformed his friend about an italian newspaper being sold in a shop.,21,26,1,,,,,,1,,,4,8
+11,2,7,40.308,SUE'S FRIEND TOLD HER THAT ITALIAN NEWSPAPERS COULD BE SOLD AT ALL THREE STORES BUT THEY COULD ONLY BE SOLD AT TWO OF THE THREE. HER FRIEND WAS USUALLY RIGHT,21,53,2,,1,,,,,,,4,9
+15,2,7,51.847,"Sue wants to buy Italian newspapers.  She asked Bob which stores in town sell Italian newspapers.  Bob named three stores, but only two of them actually sell Italian newspapers.",21,49,2,,,,,,1,,,4,8
+20,2,4,68.912,"Sue is standing near PaperWorld, Cellulose City, and Newstopia. She was informed by Bob that she can buy Italian newspapers at these shops. She has no reason to doubt Bob, however, Bob was incorrect about Paperworld. They are the only one of the shops that do not sell Italian newspapers.  ",21,28,1,,,,,,1,,,4,4
+23,2,7,11.182,Sue was mislead into thinking she could buy a news paper when she couldn't,21,29,1,,,,,,1,,,2,5
+27,2,7,94.571,"Sue was informed by Bob who she normally can trust that she could buy Italian newspapers from three stores, but this was only correct of two of the stores, the other sold stationery.",21,31,1,,,,,,1,,,2,9
+30,2,6,54.698,"Sue is told that she could buy Italian newspapers at three different stores by a friend she trusts, and her friend is only right about two of them.",21,28,2,,1,,,,,,,4,8
+35,2,4,34.184,a guy basically informed a girl of the wrong information about buying a paper in diffent citys,21,31,2,,,,,,1,,,,5
+38,2,7,18.032,Sue wanted to know which stores sold Italian newspapers and Bob told her incorrect information about 1 in 3 of the stores.,21,25,2,,,,,,1,,,5,6
+43,2,7,32.529,"her friend bob is usually reliable but papercity was a stationary shop so she cannot get italian newspapers from there,",21,27,2,,,,,,1,,,5,7
+51,2,4,54.444,"Sue was told by Bob that she can buy an italian newspaper at 3 different stores, but Bob was wrong about one of the stores",21,35,1,,,,,,1,,,2,9
+52,2,6,40.579,"Sue was standing near three stores, all of which a friend named Bob told her that she can buy Italian newspapers from. Bob was incorrect about one of the stores.",21,28,2,,,,,,1,,,5,6
+58,2,7,86.802,"Sue is standing on a corner with three different stores, all of which Sue is told sell newspapers, but one of the stores doesn't - Bob misinformed her.",21,44,1,,,,,,1,,,5,7
+60,2,3,23.068,"Bob told Sue 3 stores sold Italian newspapers, one didn't because it was a stationary store.",21,22,2,,,,,,1,,,5,4
+65,2,4,4.181,"A person was going through specific events which inevitably led to one, distinct conclusion",21,29,1,,1,,,,,,,4,7
+68,2,7,32.825,"Sue is looking to get some Italian news papers, and her friend bob who seems trust worth gave her three options. Turns out only 2 of the three stores actually sells Italian news papers, while the other is a stationary store. ",21,29,1,,,,,,1,,,6,3
+73,2,7,31.946,Sue was near 3 stores that her friend told her sold Italian newspapers. It turns out she was misinformed and paperworld doesn't.,21,26,1,,,,,,1,,,5,9
+76,2,7,34.725,Sue wants to buy Italian Newspapers.  One of the possible sources turns out not to be a source for newspapers.,21,45,1,,,,,,,1,Mixed,5,9
+79,2,5,44.467,"Sue's friend, Bob inform Sue that 3 stores are selling italian newpaper but in fact only 2 store do.",22,54,1,,,,1,,,,,6,5
+84,2,7,40.735,"Sue was standing near three stores: Cellulose City, Newstopia, and Paperworld. Bob told Sue that these places all sell Italian newspapers. However, Sue was misinformed and only Cellulose City and Newstopia sell Italian newspapers.",21,20,2,,,,1,,,,,4,8
+87,2,7,33.394,Bob tells Sue three stores that she can buy Italian newspapers at. He was wrong about one store and correct about the other two.,21,31,2,,,1,,,,,,4,8
+92,2,4,75.684,"Sue was told by Bob that Newstopia, PaperWorld, and Cellulose sell Italian newspapers. Bob has always told Sue accurate information in the past, but this time he was incorrect because PaperWorld does not sell newspapers, it sells stationary products.",21,63,2,,,,,,1,,,6,4
+94,2,7,88.342,"Bob, a local native, told Sue she could buy an Italian newspaper at three stores but only two sold papers. PaperWorld sells stationery.",21,58,1,,,,,,1,,,5,4
+97,2,5,42.229,Sue's friend tells her where she can buy Italian newspapers,21,36,2,,,,,,1,,,5,4
+101,2,7,55.054,"Sue needed an Italian newspaper. Bob was from the area so advised as to where to obtain. He gave her three locations, two of which were correctr ",21,54,2,,,,,,1,,,4,8
+103,2,7,34.991,"Sue asked Bob where she can buy Italian newspapers.  Bob told Sue three stores, but one did not sell newspapers (it was a stationery shop).",21,45,1,,,,,,1,,,8,5
+106,2,5,55.124,"Sue is interested in buying an Italian newspaper. Her friend Bob has told her that she can buy one at Newstopia, Cellulose City, or at a third store, the name of which I cannot recall.  Turns out Bob is unreliable.  Store #3 is a stationery store, not a newsstand.  However, Bob is correct about the other two stores.",21,61,2,,,,,,1,,,4,6
+112,2,5,23.451,Sue wanted to buy an Italian newspaper and asked her friend if she could find one in three different stores. He was correct about two stores and wrong about one store.,21,39,1,,,,,,1,,,5,4
+114,2,7,64.605,"Sue's friend tells her that three stores sells newspapers, but only two of those three actually sell newspapers as one is a stationery shop.",21,30,2,,1,,,,,,,4,7
+121,2,7,28.895,It was about Sue who asked a trusted friend where to buy a newspaper.,21,29,2,,,,,,1,,,5,9
+125,2,2,48.071,Sue's friend Bob lied to her about what is sold in the store ,21,27,2,,,,,,1,,,5,4
+128,2,4,62.12,Sue is looking for an Italian Newspaper.  She's in front of three stores.  Bob her friend informs her that the three stores all sell newspapers.  Bob is wrong about Paperworld which sells only stationary,21,38,2,,,,,,1,,,5,6
+129,2,6,30.384,"Sue was told by Bob that three stores, Newstopia, Paper World, and Cellulose City, all sold Italian newspaper. She believed him, but she later found out that he was wrong about Paper World, although the other two stores do sell Italian newspapers.",21,43,2,,,,,,1,,,5,7
+134,2,7,41.541,Bob tells Sue that you can get Italian papers at three stores. THis was not true for one of those stores. Sue believed him.,21,21,1,,,,,,1,,,4,8
+145,2,7,21.828,"Bob told Sue that three stores sold Italian newspapers, when only two actually did. The other store was a paper store.",21,30,2,,,,,,1,,,5,4
+146,2,7,223.246,Sue received advice from Bob whether she could buy Italian newspapers from 3 stores.  He was right about 2 of them and incorrect about one.,21,35,2,,1,,,,,,,4,7
+147,2,7,34.307,Sue was told that all 3 shops sold Italians newpaper. All but PaperWorld sold it.,21,30,1,,,,1,,,,,2,9
+158,2,6,189.965,"Sue was near 3 stores that her friend told her all sell italian newspapers, but he was wrong 1 of the stores did not sell them.",21,30,1,,,1,,,,,,3,7
+164,2,7,76.203,"Sue is standing near three stores all of which her friend told her sell Italian Newspapers. Her friend was right about two of them, but one actually sells stationary and not newspapers.",21,36,1,,,,,,1,,,5,4
+166,2,2,37.157,Sue's friend told her about 3 stores where she could buy Italian newspapers but one of the stores does not sell newspapers and thus he was wrong.,21,42,1,,,,,,1,,,4,8
+167,2,6,19.75,She was told she could buy Italian newspapers,21,26,1,,,,1,,,,,4,5
+171,2,4,6.958,think its a maybe seems like a lot of mess up but by mistake i think ,21,31,1,,,,,,1,,,4,7
+180,2,6,225.623,"Bob, a native of the city told Sue about 3 locations she was interested in.  He gave her wrong information about one of them.",21,58,2,,,,,,1,,,4,8
+182,2,6,36.709,"There were three companies.  Bob told Sue that they all sold Italian newspapers, but 1 actually sold stationary.",21,24,2,,,,,,1,,,5,5
+184,2,6,29.248,"She was told that she could buy italian newspapers from three different stores from Bob. It turns out one day that one of them is in fact a stationary store but the other two do sell italian papers, but could lead to a mistrust or in Bob's information.",21,29,1,,,,1,,,,,6,7
+192,2,1,19.714,Sue asked her friend Bob about 3 shops and he mistakenly told her that all 3 shops sell Italian newspapers,21,26,1,,,,1,,,,,5,7
+193,2,7,60.108,An individual has a friend who is usually right about things. The friend tells the individual where she can buy newspapers but he was wrong about one of the places.,21,19,2,,1,,,,,,,4,4
+198,2,7,38.628,Sue's friend told her three nearby stores all sell Italian newspapers when in reality one of them doesn't.,21,21,2,,,,,,1,,,4,5
+3,3,6,20.159,Sue's friend Bob told her that she can buy Italian newspapers at three different neighboring stores.,21,26,1,,,,,,1,,,6,9
+4,3,6,22.45,Sue is told by someone very familiar with the city that all of the stores she is near sells italian newspapers,21,29,1,,,,,,1,,,4,7
+10,3,7,16.997,"There are three stores where sue can buy and italian newspaper. She knows this because her friend Bob, a native of the city told her this.",21,36,2,,,,,,1,,,5,8
+17,3,3,1.193,nothing ,21,25,1,,,,,,1,,,5,6
+21,3,6,157.172,"Bob told Sue that she can buy 3 Italian newspapers at 3 stores.  Sue assumed Bob was right, and Bob is correct.",21,30,1,,,,,,1,,,4,8
+26,3,7,18.96,Sue wanted to buy an italian newpaper and asked Bon where to.  It turns out that Bob knew where and was correct.,,30,1,,,,,,1,,,5,5
+32,3,7,79.499,"Sue is standing near three stores. A friend of Sue named Bob informs her that all these stores sell Italian newspapers. Bob is a native of the city, and is usually well-informed. Sue has no reason to doubt Bob. Bob is correct that all three stores sell Italian newspapers. ",21,26,2,,,,1,,,,,3,7
+34,3,7,36.976,A woman was looking for a iltalina newspaper at 3 stores and her friend bob told her that one store newsweek had it and it did ,21,23,2,,,,,,1,,,5,6
+39,3,7,80.066,"Sue is standing in front of three stores, Paperworld, Cellulose City and Newstopia. She assumes they all sell Italian newspapers because her friend Bob told her this.",21,29,1,,1,,,,,,,6,7
+41,3,5,50.497,"Sue asked Bob if three different companies sold Italian newspapers, and Bob told her that they, in fact, did, and this turned out to be true.",21,20,1,,,,,,1,,,4,5
+47,3,7,69.148,The story was about 3 newspapers. All have Italian newspapers according to Sue's friend Bob.,21,49,1,,,,,,1,,,2,10
+50,3,7,32.811,"Sue and Bob were having a conversation about 3 stores.  Bob tells Sue that all 3 stores sell Italian newspapers and in fact, all 3 stores do.",21,35,2,,,,,,1,,,6,5
+53,3,7,13.512,"Bob told Sue that three local newspapers sold Italian newspapers, which was true. ",21,29,2,,,,,,1,,,8,5
+56,3,6,106.391,"Sue's friend, Bob, a native of the city told her that PaperWorld, Newstopia, and Cellulose City all sell Italian newspapers. ",21,25,1,,1,,,,1,1,Mixed Race (White & Black),3,5
+59,3,7,22.959,"Sue is close to three different stores. Her friend tells her that all of the stores sell Italian newspapers. Sue does not doubt this, and her friend is correct.",21,27,2,,,,,,1,,,6,3
+63,3,7,55.949,A FRIEND HELPING SUE WITH HER NEWSPAPER,21,33,,,1,,,,,,,4,6
+66,3,6,34.981,there are 3 stores that sue's friend knows that each of them sell Italian newspapers.Sue based on her knowledge believes this to be true and now she knows it as well,21,59,1,,,,,,1,,,5,7
+70,3,5,31.702,"Sue was told by her friend, who is a native of the city and well-trusted, that PaperWorld, Cellulose City, and Newstopia all sold italian newspapers and they did.",22,21,2,,,1,,,,,,2,8
+75,3,7,29.71,about trusting a friend ,21,47,1,,,,,,1,,,4,6
+80,3,7,22.902,A woman was told by a friend that she could find italian newspapers at a certain 3 stores and was correct.,21,27,1,,,,,,1,,,4,5
+82,3,7,56.92,There are three newspapers sue has to choose from bob her friend told sue that the newspers are in italian.,21,24,1,,,1,,,,,,4,6
+85,3,7,66.884,Sue is near three stores and Bob has told Sue that all three of these stores sells Italian newspapers.  Sue has no reason to mistrust Bob so she believes him. Bob was telling the truth.,21,27,2,,,,,,1,,,6,5
+91,3,6,47.958,"Standing in front of 3 news outlet, the girl is looking for an Italian newspaper. According to a friend, she is likely to find one at any of the 3 stores.",22,43,1,,,,,,1,,,7,3
+96,3,7,21.984,"Sue asked her friend Bob, whom she trusts, if the 3 stores mentioned sell Italian newspapers. Bob told her they all sell them, and trusted him. She went and saw that they all did indeed sell Italian newspapers.",21,33,2,,,,1,,1,,,2,8
+98,3,7,86.234,"Sue was standing near 3 stores..Paper world, Cellulose City, and Newstopia. Her friend Bob, who is a native of the city, told her she can buy an Italian newspaper at all 3 stores",21,60,2,,,,,,1,,,2,8
+105,3,7,38.46,Sue was deciding to buy an Italian newspaper at different stores. Her friend Bob told her all three stores sell the paper.,21,30,2,,,,,,1,,,3,10
+109,3,7,60.277,"Sue sees three stores, Newstopia, and two others that I can't remember the names. Sue's friend, Bob, tells her that she can buy Italian newspapers at all three stores. Sue knows Bob to be a good source of information, and Bob turned out to be right. You can buy Italian newspapers at all three stores.  ",21,24,2,,,,,,1,,,5,8
+110,3,6,35.759,"Bob told Sue that the three shops all sold Italian newspapers, and he was correct. Now when Sue wants an Italian newspaper she knows she should go there.",21,68,2,,,,,,1,,,6,8
+116,3,7,46.134,Sue is on a street standing bear three stores that sell newspapers. She was informed by the stores from a friend who is well informed,21,27,2,,,,,,1,,,4,7
+119,3,7,61.977,"Sue is standing on a street and there are 3 stores nearby that her friend--whom she trusts--has assured her that all 3 sell Italian newspapers:  Newstopia, Cellulose City and PaperWorld",21,50,2,,,,,,1,,,6,6
+122,3,7,24.284,There were three stores that Bob explained all sell Italian newspapers ,21,32,2,,,,,,1,,,4,7
+126,3,6,32.836,"Sue saw three stores, and asked her friend Bob, who knows the city.  He said they all sell Italian newspapers.  He was correct.",21,21,1,,,,,,1,,,4,6
+131,3,6,49.878,Sue was told by her friend that 3 stores all sold italian papers and she was correct,21,35,2,,,,,,1,,,2,8
+138,3,7,52.268,"Sue is near 3 paper stores, PaperWorld, Cellulose City and Newstopia. Her friend Bob tells her they are all sell Italian newspapers, which she later finds out they all do.",21,28,1,,,,,,1,,,2,7
+139,3,7,35.056,"Sue believed her friend Bob, who was correct, that three paper stores sold Italian paper.",21,21,1,,,1,,,,,,4,7
+144,3,6,28.895,Someone told Sue that all 3 stores sold Italian magazines and they were right.,21,31,1,,,,,,1,,,5,4
+148,3,7,173.134,sue has a friend named bob who was born in the city and knows a lot. ,21,34,1,,,,,,1,,,5,8
+151,3,7,21.089,A woman is in front of three newspaper stores in search for an Italian newspaper. Her friend is a well-knowledged member of the city and informs her that all of them sell italian newspapers. she trusts him.,21,27,1,,,,,,1,,,4,5
+152,3,7,20.031,Sue was standing on street by 3 stores looking for newspaper. A guy named Bob who is her friend told her they do sell Italian papers,21,31,2,,1,,,,,,,5,9
+157,3,1,91.777,Sue is standing between 3 stores and her friend Bob told her that she could buy Italian newspaper at the 3 stores. She has no reason to doubt Bob.,21,45,2,,,,,,1,,,8,1
+163,3,7,43.168,"Three stores listed and the guy says all three sell Italian Newspapers. Sue believes him, and it turns out to be true.",21,40,1,,,,,,1,,,4,
+165,3,2,33.931,Sue believed that some newspaper companies sold italian newspapers because someone told her that was the case. They infact did sell italian newspapers.,21,26,1,,,,,,1,,,8,4
+170,3,7,20.322,Sue was told by a trustworthy native of the city that all three stores sell Italian newspapers. ,21,27,1,,,,,,1,,,2,6
+175,3,6,35.913,"Sue is near three stores that, according to her friend, Bob, all sell Italian newspapers. Sue's friend is from this town and is usually well-informed, so Sue trusts that he is right.",21,23,3,non-binary,,,,,1,,,5,6
+177,3,7,26.591,"Sue is standing near 3 news stores, and her friend tells her all sell Italian Newspapers.",21,29,2,,,,,,1,,,2,6
+179,3,7,24.894,Bob told Sue you can buy Italian newspapers at three different locations.,21,25,2,,,,,,1,,,2,8
+185,3,7,57.375,"Sue doesn't know where to get an itialian newspaper, Bob tells her you can get it at all three stores",21,27,1,,,,,1,,,,4,8
+186,3,7,18.393,Sue is visiting a friend who has knowledge of three stores which sell Italian newspapers. ,21,22,1,,,1,,,,,,5,4
+191,3,6,31.085,Bob told Sue where she could find italian newspapers.,21,36,1,,,,,,1,,,4,9
+194,3,7,30.005,Bob told Sue these certain stores sell Italian newspapers ,21,27,1,,,1,,,,,,2,9
+200,3,6,104.116,"Sue is standing infront of three stores, her friend Bob who she trust, told her she could buy Italian Newspapers at.",21,30,2,,,,,,1,,,4,6
