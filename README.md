@@ -1,17 +1,5 @@
+This repository contains the supporting materials for the manuscript: Jonathan Phillips & B. R. George, Knowledge *wh* and False Beliefs: Experimental Investigations
 
-This mansucript is still in progress. Please do not cite.
+The analysis script (written in R) is titled "knowledge_wh_analyses.R" and reads in the data (in .csv format) for the different experiments labeled "know_wh_studyX". The mansucript, figures, and associated latex code are also available.
 
-This repository contains the supporting materials for the manuscript: Jonathan Phillips & B. R. George, Non-Reducibility with Knowledge *wh*: Experimental Investigations
-
-The analysis code (written in R) is in "knowledge_wh_analyses.R". This code reads in the data for the different experiments labeled "know_wh_studyX". Along with the data (in .csv format), the .qsf files with the original stimuli used to conduct the study through Qualtrics and a publication quality graph should be uploaded. 
-
-A pdf of the manuscript and LaTeX code for generating it and will be included eventually. 
-
-This mansucript is still in progress. Please do not cite or quote without permission.
-
-This repository contains the supporting materials for the manuscript: Jonathan Phillips & B. R. George, Non-Reducibility with Knowledge *wh*: Experimental Investigations
-
-The analysis code (written in R) is in "know_wh_analyses.R". This code reads in the data for the different experiments labeled "know_wh_study[X]". Along with the data (in .csv format), the .qsf files with the original stimuli used to conduct the study through Qualtrics and a publication quality graph should be uploaded.
-
-The source code for the manuscript (in LaTeX) and will be included eventually.
-
+A word doc version of of the original stimuli used to conduct the studies will be uploaded soon (along with the .qsf files used by Qualtrics).
