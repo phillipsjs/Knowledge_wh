@@ -554,7 +554,7 @@ cohensD(d5.mixed$Know[d5.mixed$Question=="Knows How"],
         d5.allFalse$Know[d5.allFalse$Question=="Knows How"])
 
 ##Overall analyses
-lm5.1 <- lm(Know ~ Condition * Question, d5)
+lm5.1 <- lm(Know ~ Condition * Question, d5[d5$Condition!="Mention some",])
 anova(lm5.1)
 etaSquared(lm5.1)
 
