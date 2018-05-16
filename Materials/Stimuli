@@ -1,0 +1,227 @@
+# Experiment 1
+
+## All True:
+
+> Sue is standing on the street near a store called Newstopia. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at Newstopia. Having no reason to doubt this, Sue took Bob at his word. Bob was correct about Newstopia, which does sell Italian newspapers.    
+
+## Mixed:
+
+> Sue is standing on the street near two stores: one called PaperWorld, and another called Newstopia. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at PaperWorld, and also at Newstopia. Having no reason to doubt this, Sue took Bob at his word. However, Bob completely misinformed Sue about PaperWorld, which does not sell newspapers, but actually just sells stationery and office supplies. Bob was correct about Newstopia.
+
+## Questions:
+
+Now please tell us whether you agree or disagree with the following statement.
+
+* *know-wh*: Sue knows where she can buy an Italian newspaper.
+
+All responses were given on a 7-point scale from 'Completely disagree' to 'Completely agree', with a midpoint of 4 marked 'In between'
+
+# Experiment 2
+
+## All True:
+
+> Sue is standing on the street near a store called Newstopia. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at Newstopia. Having no reason to doubt this, Sue took Bob at his word. Bob was correct about Newstopia, which does sell Italian newspapers.    
+
+## Mixed:
+
+> Sue is standing on the street near two stores: one called PaperWorld, and another called Newstopia. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at PaperWorld, and also at Newstopia. Having no reason to doubt this, Sue took Bob at his word. However, Bob completely misinformed Sue about PaperWorld, which does not sell newspapers, but actually just sells stationery and office supplies. Bob was correct about Newstopia.
+
+## All False:
+
+> Sue is standing on the street near a store called Paperworld. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at Paperworld. Having no reason to doubt this, Sue has always assumed that Bob was right. However, Bob completely misinformed Sue about Paperworld, which does not sell newspapers, but actually just sells stationery and office supplies. 
+
+## Questions:
+
+Now please tell us whether you agree or disagree with the following statement. 
+
+### Non-negated
+
+* *Can*: Sue knows where she can buy an Italian newspaper.
+* *Should*: Sue knows where she should buy an Italian newspaper.
+* *To*: Sue knows where to buy an Italian newspaper.
+
+### Negated
+
+* *Can*: Sue doesn't know where she can buy an Italian newspaper.
+* *Should*: Sue doesn't know where she should buy an Italian newspaper.
+* *To*: Sue doesn't know where to buy an Italian newspaper.
+
+All responses were given on a 7-point scale from 'Completely disagree' to 'Completely agree', with a midpoint of 4 marked 'In between'
+
+# Experiment 3
+
+## All True:
+
+> Sue is standing on the street near a store called Newstopia. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at Newstopia. Having no reason to doubt this, Sue took Bob at his word. Bob was correct about Newstopia, which does sell Italian newspapers.    
+
+## Mixed:
+
+> Sue is standing on the street near two stores: one called PaperWorld, and another called Newstopia. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at PaperWorld, and also at Newstopia. Having no reason to doubt this, Sue took Bob at his word. However, Bob completely misinformed Sue about PaperWorld, which does not sell newspapers, but actually just sells stationery and office supplies. Bob was correct about Newstopia.
+
+## All False:
+
+> Sue is standing on the street near a store called Paperworld. Sue’s friend, Bob, a native of the city who is normally very well-informed and trustworthy, told her that she can buy an Italian newspaper at Paperworld. Having no reason to doubt this, Sue has always assumed that Bob was right. However, Bob completely misinformed Sue about Paperworld, which does not sell newspapers, but actually just sells stationery and office supplies. 
+
+## Questions:
+
+Now please tell us whether you agree or disagree with the following statement. 
+
+### All True / Mixed
+
+* *know-that*: Sue knows that she can buy an Italian newspaper at Newstopia. 
+
+### All False
+
+* *know-that*: Sue knows that she can buy an Italian newspaper at Paperworld. 
+
+All responses were given on a 7-point scale from 'Completely disagree' to 'Completely agree', with a midpoint of 4 marked 'In between'
+
+# Experiment 4
+
+## Shared Language
+
+> Sue, who speaks only Italian and English, needs to buy an Italian newspaper. She is standing on the street near two stores: one called PaperWorld, and one called Cellulose City. Sue sees a man named Bob nearby. Bob is a native of the city who is normally very well-informed and trustworthy.
+
+> Bob speaks only English and Hungarian. He believes that PaperWorld and Cellulose City sell Italian newspapers. He would be happy to tell this to Sue if she asked and he understood her. Moreover, Bob should be able to understand Sue's question, since they can speak the same language.
+
+### All True
+
+> Bob is right about both stores: PaperWorld and Cellulose City both sell Italian newspapers.
+
+### Mixed
+
+> Bob is right about PaperWorld. However, Bob is mistaken about Cellulose City, which does not sell Italian newspapers. (It is actually a stationery shop.)
+
+### All False
+
+> Bob is completely mistaken about PaperWorld and Cellulose City, neither of which sells Italian newspapers. (They are actually both stationery shops.)
+
+## No Shared Language
+
+> Sue, who speaks only Italian and English, needs to buy an Italian newspaper. She is standing on the street near two stores: one called PaperWorld, and one called Cellulose City. Sue sees a man named Bob nearby. Bob is a native of the city who is normally very well-informed and trustworthy.
+
+> Bob speaks only Cantonese and Hungarian. He believes that PaperWorld and Cellulose City sell Italian newspapers. He would be happy to tell this to Sue if she asked and he understood her. However, Bob would not be able to understand Sue's question, since they can't speak the same language.
+
+### All True
+
+> Bob is right about both stores: PaperWorld and Cellulose City both sell Italian newspapers.
+
+### Mixed
+
+> Bob is right about PaperWorld. However, Bob is mistaken about Cellulose City, which does not sell Italian newspapers. (It is actually a stationery shop.)
+
+### All False
+
+> Bob is completely mistaken about PaperWorld and Cellulose City, neither of which sells Italian newspapers. (They are actually both stationery shops.)
+
+## Questions:
+
+### Knowledge-wh
+
+Please tell us whether you agree or disagree with the following statement:
+
+* Bob knows where Sue can buy an Italian newspaper.
+
+All responses were given on a 7-point scale from 'Completely disagree' to 'Completely agree', with a midpoint of 4 marked 'In between'
+
+### Relevance Implicature 
+
+> Because Sue needs an Italian newspaper, she calls her friend Mary, to ask her what she should do, and happens to mentions that she sees Bob nearby. Mary, who knows that Bob likes to keep up with the latest news from Italy, tells Sue 
+ 
+> “Bob knows where you can buy an Italian newspaper.”
+
+Given everything you know about Bob, how useful will Mary’s information be to Sue?
+
+All responses were given on a 7-point scale from 'Not at all useful' to 'Very useful', with a midpoint of 4 marked 'In between'	
+
+# Experiment 5
+
+## Knowledge-how
+
+> Jason recently moved to a new town, and while he knows his way around the town, he doesn’t know where the hardware store is. He needs to find a hardware store because there’s a leaking pipe in his house. When Jason asks his neighbor where he can find a hardware store, his neighbor tells him that there’s one four miles northeast and on the left side of the street. But when Jason asks his coworker where he can find a hardware store, his coworker tells him that there’s one six miles south and on the right side of the street. Jason knows that his neighbor and his co-worker have lived in the town for about the same amount of time.
+
+### All True
+
+> *Version 1* There is a hardware store four miles northeast and on the left side of the street. There is also a hardware store six miles south and on the right side of the street.
+> *Version 2* There is a hardware store six miles south and on the right side of the street. There is also a hardware store four miles northeast and on the left side of the street.
+
+### Mixed
+
+> *Version 1* There is a hardware store four miles northeast and on the left side of the street. There is no hardware store six miles south and on the right side of the street.
+> *Version 2* There is a hardware store six miles south and on the right side of the street. There is no hardware store four miles northeast and on the left side of the street.
+
+### All False
+
+> *Version 1* There is no hardware store four miles northeast and on the left side of the street. There is also no hardware store six miles south and on the right side of the street.
+> *Version 2* There is no hardware store six miles south and on the right side of the street. There is also no hardware store four miles northeast and on the left side of the street.
+
+### Question:
+
+Now please tell us whether you agree or disagree with the following statement.
+
+* Jason knows how to get to a hardware store.
+
+All responses were given on a 7-point scale from 'Completely disagree' to 'Completely agree', with a midpoint of 4 marked 'In between'
+
+## Knowledge-who
+
+> Amy needs to give a presentation this afternoon, but she doesn’t have th
+e adapter she needs to connect her laptop to the projector in the conference room. Amy realizes that she'll need to borrow a MiniDisplayPort adapter from someone else in her department. She talks to her friend Bert, since she trusts him. Bert works in the cubicle right beside Amy. While he doesn’t have the right adapter, he tells Amy that he is certain that both Diana and Ed have the kind of adapter that Amy needs.
+
+### All True
+
+> Amy hasn't yet found Diana or Ed, but in fact Bert was right about both of them. Both Diana and Ed have the kind of adapter Amy needs.
+
+### Mixed
+
+> Amy hasn't yet found Diana or Ed, but in fact Bert was right about Diana, and completely wrong about Ed, who actually doesn't have the kind of adapter Amy needs.
+
+### All False
+
+> Amy hasn't yet found Diana or Ed, but in fact Bert was wrong about both of them. Neither Diana nor Ed actually have the kind of adapter Amy needs.
+
+### Mention some test
+
+> Amy hasn't yet found Diana or Ed, but in fact Bert was right about both of them. Both Diana and Ed have the kind of adapter Amy needs. Florence, who works just down the hall, also has the adapter Amy needs, although neither Amy nor Ed knows this.
+
+### Question:
+
+Now please tell us whether you agree or disagree with the following statement.
+ 
+* Amy knows who can lend her an adapter.
+
+All responses were given on a 7-point scale from 'Completely disagree' to 'Completely agree', with a midpoint of 4 marked 'In between'
+
+# Experiment 6
+
+> Sue is standing on the street near three stores: one called PaperWorld, one called Cellulose City and one called Newstopia. Sue’s friend, Bob, a native of the city who is normally very well informed and trustworthy, told her that PaperWorld, Newstopia and Cellulose City all sell Italian newspapers. Having no reason to doubt this, Sue has always assumed that Bob was right.
+
+## 0 of 3 False
+
+> Bob was correct about all three stores, which do in fact all sell Italian newspapers.
+
+## 1 of 3 False
+
+> However, Bob completely misinformed Sue about PaperWorld, which does not sell newspapers, but is actually a stationery shop. Bob was correct about Newstopia and Cellulose City.
+
+## 2 of 3 False
+
+> However, Bob completely misinformed Sue about PaperWorld and Cellulose City, which do not sell newspapers, but are actually both stationery shops. Bob was correct about Newstopia.
+
+## 3 of 3 False
+
+> However, Bob completely misinformed Sue about all three stores, none of which sell Italian newspapers. PaperWorld and Cellulose City, are actually both stationary shops, and Newstopia is an ironically misnamed shop that sells T-shirts with obnoxious political slogans.
+
+## Questions	
+
+Now please tell us whether you agree or disagree with the following statement.
+
+### Knowledge-wh
+
+* Sue knows where she can buy an Italian newspaper.
+
+### Knowledge-that
+
+* Sue knows that she can buy an Italian newspaper at Newstopia.
+
+All responses were given on a 7-point scale from 'Completely disagree' to 'Completely agree', with a midpoint of 4 marked 'Neither agree nor disagree'
